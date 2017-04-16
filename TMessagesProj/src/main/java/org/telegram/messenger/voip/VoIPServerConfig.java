@@ -1,8 +1,8 @@
-package org.telegram.messenger.voip;
+package com.ferdi2005.secondgram.voip;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.FileLog;
 
 import java.util.ArrayList;
 import java.util.Iterator;

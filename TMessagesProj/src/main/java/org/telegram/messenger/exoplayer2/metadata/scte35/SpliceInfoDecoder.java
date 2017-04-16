@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.metadata.scte35;
+package com.ferdi2005.secondgram.exoplayer2.metadata.scte35;
 
 import android.text.TextUtils;
-import org.telegram.messenger.exoplayer2.metadata.Metadata;
-import org.telegram.messenger.exoplayer2.metadata.MetadataDecoder;
-import org.telegram.messenger.exoplayer2.metadata.MetadataDecoderException;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.ParsableBitArray;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.metadata.Metadata;
+import com.ferdi2005.secondgram.exoplayer2.metadata.MetadataDecoder;
+import com.ferdi2005.secondgram.exoplayer2.metadata.MetadataDecoderException;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableBitArray;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 
 /**
  * Decodes splice info sections and produces splice commands.

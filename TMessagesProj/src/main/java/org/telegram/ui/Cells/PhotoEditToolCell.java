@@ -16,7 +16,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
 import org.telegram.ui.Components.LayoutHelper;
 
 public class PhotoEditToolCell extends FrameLayout {

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger.query;
+package com.ferdi2005.secondgram.query;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -26,19 +26,19 @@ import android.text.TextUtils;
 
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLitePreparedStatement;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.MessagesStorage;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.OpenChatReceiver;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.ContactsController;
+import com.ferdi2005.secondgram.FileLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.MessagesController;
+import com.ferdi2005.secondgram.MessagesStorage;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.OpenChatReceiver;
+import com.ferdi2005.secondgram.R;
+import com.ferdi2005.secondgram.UserConfig;
+import com.ferdi2005.secondgram.Utilities;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;

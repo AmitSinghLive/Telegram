@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.metadata.scte35;
+package com.ferdi2005.secondgram.exoplayer2.metadata.scte35;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 
 /**
  * Represents a private command as defined in SCTE35, Section 9.3.6.

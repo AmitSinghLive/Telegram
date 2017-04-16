@@ -30,13 +30,13 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.Emoji;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.R;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 

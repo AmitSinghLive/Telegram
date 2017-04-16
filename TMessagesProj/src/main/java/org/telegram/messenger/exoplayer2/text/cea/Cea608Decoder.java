@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.text.cea;
+package com.ferdi2005.secondgram.exoplayer2.text.cea;
 
 import android.text.TextUtils;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.text.Cue;
-import org.telegram.messenger.exoplayer2.text.Subtitle;
-import org.telegram.messenger.exoplayer2.text.SubtitleDecoder;
-import org.telegram.messenger.exoplayer2.text.SubtitleInputBuffer;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.text.Cue;
+import com.ferdi2005.secondgram.exoplayer2.text.Subtitle;
+import com.ferdi2005.secondgram.exoplayer2.text.SubtitleDecoder;
+import com.ferdi2005.secondgram.exoplayer2.text.SubtitleInputBuffer;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 
 /**
  * A {@link SubtitleDecoder} for CEA-608 (also known as "line 21 captions" and "EIA-608").

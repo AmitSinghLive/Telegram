@@ -18,9 +18,9 @@ import android.view.ViewTreeObserver;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.R;
 import org.telegram.ui.ActionBar.AlertDialog;
 
 import static android.graphics.Paint.FILTER_BITMAP_FLAG;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger.camera;
+package com.ferdi2005.secondgram.camera;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -25,7 +25,7 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
 
 import java.util.ArrayList;
 import java.util.concurrent.Semaphore;
@@ -129,7 +129,7 @@ public class CameraView extends FrameLayout implements TextureView.SurfaceTextur
         float size4to3 = 4.0f / 3.0f;
         float size16to9 = 16.0f / 9.0f;
         float screenSize = (float) Math.max(AndroidUtilities.displaySize.x, AndroidUtilities.displaySize.y) / Math.min(AndroidUtilities.displaySize.x, AndroidUtilities.displaySize.y);
-        org.telegram.messenger.camera.Size aspectRatio;
+        com.ferdi2005.secondgram.camera.Size aspectRatio;
         int wantedWidth;
         int wantedHeight;
         if (Math.abs(screenSize - size4to3) < 0.1f) {
@@ -146,14 +146,14 @@ public class CameraView extends FrameLayout implements TextureView.SurfaceTextur
             int height = width * aspectRatio.getHeight() / aspectRatio.getWidth();
             previewSize = CameraController.chooseOptimalSize(info.getPreviewSizes(), width, height, aspectRatio);
         }
-        org.telegram.messenger.camera.Size pictureSize = CameraController.chooseOptimalSize(info.getPictureSizes(), wantedWidth, wantedHeight, aspectRatio);
+        com.ferdi2005.secondgram.camera.Size pictureSize = CameraController.chooseOptimalSize(info.getPictureSizes(), wantedWidth, wantedHeight, aspectRatio);
         if (pictureSize.getWidth() >= 1280 && pictureSize.getHeight() >= 1280) {
             if (Math.abs(screenSize - size4to3) < 0.1f) {
                 aspectRatio = new Size(3, 4);
             } else {
                 aspectRatio = new Size(9, 16);
             }
-            org.telegram.messenger.camera.Size pictureSize2 = CameraController.chooseOptimalSize(info.getPictureSizes(), wantedHeight, wantedWidth, aspectRatio);
+            com.ferdi2005.secondgram.camera.Size pictureSize2 = CameraController.chooseOptimalSize(info.getPictureSizes(), wantedHeight, wantedWidth, aspectRatio);
             if (pictureSize2.getWidth() < 1280 || pictureSize2.getHeight() < 1280) {
                 pictureSize = pictureSize2;
             }

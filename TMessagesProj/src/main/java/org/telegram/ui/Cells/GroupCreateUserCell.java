@@ -12,12 +12,12 @@ import android.content.Context;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.UserObject;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.MessagesController;
+import com.ferdi2005.secondgram.R;
+import com.ferdi2005.secondgram.UserConfig;
+import com.ferdi2005.secondgram.UserObject;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.SimpleTextView;

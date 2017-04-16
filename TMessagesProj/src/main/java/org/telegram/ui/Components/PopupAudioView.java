@@ -17,12 +17,12 @@ import android.text.TextPaint;
 import android.view.MotionEvent;
 import android.view.SoundEffectConstants;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.MessageObject;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.ImageLoader;
+import com.ferdi2005.secondgram.MediaController;
+import com.ferdi2005.secondgram.MessagesController;
+import com.ferdi2005.secondgram.FileLoader;
+import com.ferdi2005.secondgram.MessageObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.BaseCell;

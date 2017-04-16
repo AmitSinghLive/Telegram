@@ -6,15 +6,15 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger.query;
+package com.ferdi2005.secondgram.query;
 
 import android.text.TextUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.MessagesStorage;
-import org.telegram.messenger.NotificationCenter;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.MessageObject;
+import com.ferdi2005.secondgram.MessagesController;
+import com.ferdi2005.secondgram.MessagesStorage;
+import com.ferdi2005.secondgram.NotificationCenter;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;

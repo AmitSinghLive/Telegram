@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.support.util;
+package com.ferdi2005.secondgram.support.util;
 
 /**
  * Wraps a {@link ListUpdateCallback} callback and batches operations that can be merged.

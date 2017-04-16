@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream.cache;
+package com.ferdi2005.secondgram.exoplayer2.upstream.cache;
 
 import android.net.Uri;
 import android.support.annotation.IntDef;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.upstream.DataSink;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.DataSourceException;
-import org.telegram.messenger.exoplayer2.upstream.DataSpec;
-import org.telegram.messenger.exoplayer2.upstream.FileDataSource;
-import org.telegram.messenger.exoplayer2.upstream.TeeDataSource;
-import org.telegram.messenger.exoplayer2.upstream.cache.Cache.CacheException;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSink;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSourceException;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSpec;
+import com.ferdi2005.secondgram.exoplayer2.upstream.FileDataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.TeeDataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.cache.Cache.CacheException;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 import java.lang.annotation.Retention;

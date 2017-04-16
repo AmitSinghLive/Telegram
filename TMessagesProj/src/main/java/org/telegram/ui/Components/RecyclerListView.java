@@ -31,11 +31,11 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.support.widget.LinearLayoutManager;
-import org.telegram.messenger.support.widget.RecyclerView;
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.support.widget.LinearLayoutManager;
+import com.ferdi2005.secondgram.support.widget.RecyclerView;
+import com.ferdi2005.secondgram.FileLog;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.lang.reflect.Field;

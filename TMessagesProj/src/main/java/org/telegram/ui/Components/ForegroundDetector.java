@@ -14,7 +14,7 @@ import android.app.Application;
 import android.os.Build;
 import android.os.Bundle;
 
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.FileLog;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 

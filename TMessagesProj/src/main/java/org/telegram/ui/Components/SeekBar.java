@@ -13,7 +13,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.view.MotionEvent;
 
-import org.telegram.messenger.AndroidUtilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
 
 public class SeekBar {
 

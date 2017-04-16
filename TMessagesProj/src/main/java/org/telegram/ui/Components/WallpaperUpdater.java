@@ -18,14 +18,14 @@ import android.os.Build;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BuildConfig;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.Utilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.BuildConfig;
+import com.ferdi2005.secondgram.FileLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.ImageLoader;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.R;
+import com.ferdi2005.secondgram.Utilities;
 import org.telegram.ui.ActionBar.AlertDialog;
 
 import java.io.File;

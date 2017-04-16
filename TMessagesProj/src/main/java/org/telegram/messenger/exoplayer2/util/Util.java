@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.util;
+package com.ferdi2005.secondgram.exoplayer2.util;
 
 import android.Manifest.permission;
 import android.annotation.TargetApi;
@@ -29,11 +29,11 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.ExoPlayerLibraryInfo;
-import org.telegram.messenger.exoplayer2.ParserException;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.DataSpec;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlayerLibraryInfo;
+import com.ferdi2005.secondgram.exoplayer2.ParserException;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSpec;
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
 import java.io.IOException;

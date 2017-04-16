@@ -25,10 +25,10 @@ import android.view.WindowManager;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.exoplayer2.ui.AspectRatioFrameLayout;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.exoplayer2.ui.AspectRatioFrameLayout;
 import org.telegram.ui.ActionBar.ActionBar;
 
 import java.util.ArrayList;

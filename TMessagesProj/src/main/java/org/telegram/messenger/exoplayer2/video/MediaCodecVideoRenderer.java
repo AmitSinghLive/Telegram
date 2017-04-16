@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.video;
+package com.ferdi2005.secondgram.exoplayer2.video;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -25,21 +25,21 @@ import android.os.Handler;
 import android.os.SystemClock;
 import android.util.Log;
 import android.view.Surface;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.ExoPlaybackException;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.drm.DrmInitData;
-import org.telegram.messenger.exoplayer2.drm.DrmSessionManager;
-import org.telegram.messenger.exoplayer2.drm.FrameworkMediaCrypto;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecInfo;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecRenderer;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecSelector;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecUtil;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.TraceUtil;
-import org.telegram.messenger.exoplayer2.util.Util;
-import org.telegram.messenger.exoplayer2.video.VideoRendererEventListener.EventDispatcher;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlaybackException;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmInitData;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmSessionManager;
+import com.ferdi2005.secondgram.exoplayer2.drm.FrameworkMediaCrypto;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecInfo;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecRenderer;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecSelector;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecUtil;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.TraceUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.video.VideoRendererEventListener.EventDispatcher;
 import java.nio.ByteBuffer;
 
 /**

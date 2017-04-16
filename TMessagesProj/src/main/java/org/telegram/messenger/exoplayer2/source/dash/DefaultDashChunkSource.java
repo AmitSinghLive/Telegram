@@ -13,37 +13,37 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.dash;
+package com.ferdi2005.secondgram.exoplayer2.source.dash;
 
 import android.net.Uri;
 import android.os.SystemClock;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.extractor.ChunkIndex;
-import org.telegram.messenger.exoplayer2.extractor.Extractor;
-import org.telegram.messenger.exoplayer2.extractor.SeekMap;
-import org.telegram.messenger.exoplayer2.extractor.mkv.MatroskaExtractor;
-import org.telegram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import org.telegram.messenger.exoplayer2.extractor.rawcc.RawCcExtractor;
-import org.telegram.messenger.exoplayer2.source.BehindLiveWindowException;
-import org.telegram.messenger.exoplayer2.source.chunk.Chunk;
-import org.telegram.messenger.exoplayer2.source.chunk.ChunkExtractorWrapper;
-import org.telegram.messenger.exoplayer2.source.chunk.ChunkHolder;
-import org.telegram.messenger.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
-import org.telegram.messenger.exoplayer2.source.chunk.ContainerMediaChunk;
-import org.telegram.messenger.exoplayer2.source.chunk.InitializationChunk;
-import org.telegram.messenger.exoplayer2.source.chunk.MediaChunk;
-import org.telegram.messenger.exoplayer2.source.chunk.SingleSampleMediaChunk;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.DashManifest;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.RangedUri;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.Representation;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.DataSpec;
-import org.telegram.messenger.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
-import org.telegram.messenger.exoplayer2.upstream.LoaderErrorThrower;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ChunkIndex;
+import com.ferdi2005.secondgram.exoplayer2.extractor.Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.SeekMap;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mkv.MatroskaExtractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.rawcc.RawCcExtractor;
+import com.ferdi2005.secondgram.exoplayer2.source.BehindLiveWindowException;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.Chunk;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ChunkExtractorWrapper;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ChunkHolder;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ContainerMediaChunk;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.InitializationChunk;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.MediaChunk;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.SingleSampleMediaChunk;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.DashManifest;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.RangedUri;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.Representation;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSpec;
+import com.ferdi2005.secondgram.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
+import com.ferdi2005.secondgram.exoplayer2.upstream.LoaderErrorThrower;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.List;
 

@@ -29,9 +29,9 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ListView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.R;
 
 public class DrawerLayoutContainer extends FrameLayout {
 

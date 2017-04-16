@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream.cache;
+package com.ferdi2005.secondgram.exoplayer2.upstream.cache;
 
 /**
  * Evicts data from a {@link Cache}. Implementations should call {@link Cache#removeSpan(CacheSpan)}

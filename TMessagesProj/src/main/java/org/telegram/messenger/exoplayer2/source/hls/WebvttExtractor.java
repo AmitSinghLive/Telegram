@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.hls;
+package com.ferdi2005.secondgram.exoplayer2.source.hls;
 
 import android.text.TextUtils;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.ParserException;
-import org.telegram.messenger.exoplayer2.extractor.Extractor;
-import org.telegram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.telegram.messenger.exoplayer2.extractor.ExtractorOutput;
-import org.telegram.messenger.exoplayer2.extractor.PositionHolder;
-import org.telegram.messenger.exoplayer2.extractor.SeekMap;
-import org.telegram.messenger.exoplayer2.extractor.TimestampAdjuster;
-import org.telegram.messenger.exoplayer2.extractor.TrackOutput;
-import org.telegram.messenger.exoplayer2.text.SubtitleDecoderException;
-import org.telegram.messenger.exoplayer2.text.webvtt.WebvttParserUtil;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.ParserException;
+import com.ferdi2005.secondgram.exoplayer2.extractor.Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorInput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorOutput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.PositionHolder;
+import com.ferdi2005.secondgram.exoplayer2.extractor.SeekMap;
+import com.ferdi2005.secondgram.exoplayer2.extractor.TimestampAdjuster;
+import com.ferdi2005.secondgram.exoplayer2.extractor.TrackOutput;
+import com.ferdi2005.secondgram.exoplayer2.text.SubtitleDecoderException;
+import com.ferdi2005.secondgram.exoplayer2.text.webvtt.WebvttParserUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.regex.Matcher;

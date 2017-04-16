@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -18,9 +18,9 @@ import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLiteDatabase;
 import org.telegram.SQLite.SQLitePreparedStatement;
-import org.telegram.messenger.query.BotQuery;
-import org.telegram.messenger.query.MessagesQuery;
-import org.telegram.messenger.query.SharedMediaQuery;
+import com.ferdi2005.secondgram.query.BotQuery;
+import com.ferdi2005.secondgram.query.MessagesQuery;
+import com.ferdi2005.secondgram.query.SharedMediaQuery;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.RequestDelegate;

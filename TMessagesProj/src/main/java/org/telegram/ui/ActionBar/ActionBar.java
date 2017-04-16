@@ -25,7 +25,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.telegram.messenger.AndroidUtilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
 import org.telegram.ui.Components.LayoutHelper;
 
 import java.util.ArrayList;

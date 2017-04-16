@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.extractor.mp3;
+package com.ferdi2005.secondgram.exoplayer2.extractor.mp3;
 
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.extractor.MpegAudioHeader;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.extractor.MpegAudioHeader;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 
 /**
  * MP3 seeker that uses metadata from a Xing header.

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.hls;
+package com.ferdi2005.secondgram.exoplayer2.source.hls;
 
 import android.util.SparseArray;
-import org.telegram.messenger.exoplayer2.extractor.TimestampAdjuster;
+import com.ferdi2005.secondgram.exoplayer2.extractor.TimestampAdjuster;
 
 /**
  * Provides {@link TimestampAdjuster} instances for use during HLS playbacks.

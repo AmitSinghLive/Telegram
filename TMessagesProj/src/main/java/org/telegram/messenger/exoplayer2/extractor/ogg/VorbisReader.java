@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.extractor.ogg;
+package com.ferdi2005.secondgram.exoplayer2.extractor.ogg;
 
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.ParserException;
-import org.telegram.messenger.exoplayer2.extractor.ogg.VorbisUtil.Mode;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.ParserException;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ogg.VorbisUtil.Mode;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 import java.util.ArrayList;
 

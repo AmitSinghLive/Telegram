@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.util;
+package com.ferdi2005.secondgram.support.util;
 
 import android.support.annotation.Nullable;
 import android.support.annotation.VisibleForTesting;
-import org.telegram.messenger.support.widget.RecyclerView;
+import com.ferdi2005.secondgram.support.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -311,7 +311,7 @@ public class DiffUtil {
          * DiffUtil uses this method to check equality instead of {@link Object#equals(Object)}
          * so that you can change its behavior depending on your UI.
          * For example, if you are using DiffUtil with a
-         * {@link org.telegram.messenger.support.widget.RecyclerView.Adapter RecyclerView.Adapter}, you should
+         * {@link com.ferdi2005.secondgram.support.widget.RecyclerView.Adapter RecyclerView.Adapter}, you should
          * return whether the items' visual representations are the same.
          * <p>
          * This method is called only if {@link #areItemsTheSame(int, int)} returns
@@ -331,7 +331,7 @@ public class DiffUtil {
          * <p>
          * For example, if you are using DiffUtil with {@link RecyclerView}, you can return the
          * particular field that changed in the item and your
-         * {@link org.telegram.messenger.support.widget.RecyclerView.ItemAnimator ItemAnimator} can use that
+         * {@link com.ferdi2005.secondgram.support.widget.RecyclerView.ItemAnimator ItemAnimator} can use that
          * information to run the correct animation.
          * <p>
          * Default implementation returns {@code null}.
@@ -627,7 +627,7 @@ public class DiffUtil {
         /**
          * Dispatches the update events to the given adapter.
          * <p>
-         * For example, if you have an {@link org.telegram.messenger.support.widget.RecyclerView.Adapter Adapter}
+         * For example, if you have an {@link com.ferdi2005.secondgram.support.widget.RecyclerView.Adapter Adapter}
          * that is backed by a {@link List}, you can swap the list with the new one then call this
          * method to dispatch all updates to the RecyclerView.
          * <pre>
@@ -643,11 +643,11 @@ public class DiffUtil {
          * before RecyclerView tries to read it.
          * <p>
          * On the other hand, if you have another
-         * {@link org.telegram.messenger.support.widget.RecyclerView.AdapterDataObserver AdapterDataObserver}
+         * {@link com.ferdi2005.secondgram.support.widget.RecyclerView.AdapterDataObserver AdapterDataObserver}
          * that tries to process events synchronously, this may confuse that observer because the
          * list is instantly moved to its final state while the adapter updates are dispatched later
          * on, one by one. If you have such an
-         * {@link org.telegram.messenger.support.widget.RecyclerView.AdapterDataObserver AdapterDataObserver},
+         * {@link com.ferdi2005.secondgram.support.widget.RecyclerView.AdapterDataObserver AdapterDataObserver},
          * you can use
          * {@link #dispatchUpdatesTo(ListUpdateCallback)} to handle each modification
          * manually.

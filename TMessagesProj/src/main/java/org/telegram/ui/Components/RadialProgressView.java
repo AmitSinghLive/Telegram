@@ -16,7 +16,7 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 
-import org.telegram.messenger.AndroidUtilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class RadialProgressView extends View {

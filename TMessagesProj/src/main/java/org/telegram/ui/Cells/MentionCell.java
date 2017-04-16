@@ -15,9 +15,9 @@ import android.view.Gravity;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.UserObject;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.Emoji;
+import com.ferdi2005.secondgram.UserObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AvatarDrawable;

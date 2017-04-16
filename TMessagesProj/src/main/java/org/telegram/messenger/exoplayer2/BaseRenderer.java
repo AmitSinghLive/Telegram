@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2;
+package com.ferdi2005.secondgram.exoplayer2;
 
-import org.telegram.messenger.exoplayer2.decoder.DecoderInputBuffer;
-import org.telegram.messenger.exoplayer2.source.SampleStream;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.MediaClock;
+import com.ferdi2005.secondgram.exoplayer2.decoder.DecoderInputBuffer;
+import com.ferdi2005.secondgram.exoplayer2.source.SampleStream;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.MediaClock;
 import java.io.IOException;
 
 /**

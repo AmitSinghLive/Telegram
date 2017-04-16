@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.metadata.id3;
+package com.ferdi2005.secondgram.exoplayer2.metadata.id3;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 
 /**
  * Comment ID3 frame.

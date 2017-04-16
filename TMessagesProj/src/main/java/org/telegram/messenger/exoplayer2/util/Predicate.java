@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.util;
+package com.ferdi2005.secondgram.exoplayer2.util;
 
 /**
  * Determines a true of false value for a given input.

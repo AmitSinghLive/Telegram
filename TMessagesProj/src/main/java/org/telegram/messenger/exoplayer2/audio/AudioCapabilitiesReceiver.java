@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.audio;
+package com.ferdi2005.secondgram.exoplayer2.audio;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.media.AudioManager;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 
 /**
  * Receives broadcast events indicating changes to the device's audio capabilities, notifying a

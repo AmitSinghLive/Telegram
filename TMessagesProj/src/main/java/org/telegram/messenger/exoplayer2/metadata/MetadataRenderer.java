@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.metadata;
+package com.ferdi2005.secondgram.exoplayer2.metadata;
 
 import android.os.Handler;
 import android.os.Handler.Callback;
 import android.os.Looper;
 import android.os.Message;
-import org.telegram.messenger.exoplayer2.BaseRenderer;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.ExoPlaybackException;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.FormatHolder;
-import org.telegram.messenger.exoplayer2.decoder.DecoderInputBuffer;
-import org.telegram.messenger.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.BaseRenderer;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlaybackException;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.FormatHolder;
+import com.ferdi2005.secondgram.exoplayer2.decoder.DecoderInputBuffer;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
 import java.nio.ByteBuffer;
 
 /**

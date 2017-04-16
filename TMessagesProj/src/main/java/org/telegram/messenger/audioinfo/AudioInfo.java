@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.audioinfo;
+package com.ferdi2005.secondgram.audioinfo;
 
 import android.graphics.Bitmap;
 
-import org.telegram.messenger.audioinfo.m4a.M4AInfo;
-import org.telegram.messenger.audioinfo.mp3.MP3Info;
+import com.ferdi2005.secondgram.audioinfo.m4a.M4AInfo;
+import com.ferdi2005.secondgram.audioinfo.mp3.MP3Info;
 
 import java.io.BufferedInputStream;
 import java.io.File;

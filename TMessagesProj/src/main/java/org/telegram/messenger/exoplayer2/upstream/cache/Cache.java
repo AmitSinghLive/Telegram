@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream.cache;
+package com.ferdi2005.secondgram.exoplayer2.upstream.cache;
 
 import java.io.File;
 import java.io.IOException;
@@ -208,7 +208,7 @@ public interface Cache {
 
   /**
    * Returns the content length for the given key if one set, or {@link
-   * org.telegram.messenger.exoplayer2.C#LENGTH_UNSET} otherwise.
+   * com.ferdi2005.secondgram.exoplayer2.C#LENGTH_UNSET} otherwise.
    *
    * @param key The cache key for the data.
    */

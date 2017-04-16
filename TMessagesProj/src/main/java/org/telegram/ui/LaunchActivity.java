@@ -40,32 +40,32 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import org.telegram.messenger.AndroidUtilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.MessagesStorage;
-import org.telegram.messenger.NativeCrashManager;
-import org.telegram.messenger.SendMessagesHelper;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.browser.Browser;
-import org.telegram.messenger.query.DraftQuery;
-import org.telegram.messenger.support.widget.LinearLayoutManager;
+import com.ferdi2005.secondgram.BuildVars;
+import com.ferdi2005.secondgram.ChatObject;
+import com.ferdi2005.secondgram.ContactsController;
+import com.ferdi2005.secondgram.ImageLoader;
+import com.ferdi2005.secondgram.MessageObject;
+import com.ferdi2005.secondgram.MessagesController;
+import com.ferdi2005.secondgram.MessagesStorage;
+import com.ferdi2005.secondgram.NativeCrashManager;
+import com.ferdi2005.secondgram.SendMessagesHelper;
+import com.ferdi2005.secondgram.UserObject;
+import com.ferdi2005.secondgram.Utilities;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.R;
+import com.ferdi2005.secondgram.browser.Browser;
+import com.ferdi2005.secondgram.query.DraftQuery;
+import com.ferdi2005.secondgram.support.widget.LinearLayoutManager;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
-import org.telegram.messenger.UserConfig;
+import com.ferdi2005.secondgram.UserConfig;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.Adapters.DrawerLayoutAdapter;
 import org.telegram.ui.ActionBar.ActionBarLayout;
@@ -1063,7 +1063,7 @@ public class LaunchActivity extends Activity implements ActionBarLayout.ActionBa
                                 }
                             }
                         }
-                    } else if (intent.getAction().equals("org.telegram.messenger.OPEN_ACCOUNT")) {
+                    } else if (intent.getAction().equals("com.ferdi2005.secondgram.OPEN_ACCOUNT")) {
                         open_settings = 1;
                     } else if (intent.getAction().equals("new_dialog")) {
                         open_new_dialog = 1;

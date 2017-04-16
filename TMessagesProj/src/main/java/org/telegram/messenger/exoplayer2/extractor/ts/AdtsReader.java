@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.extractor.ts;
+package com.ferdi2005.secondgram.exoplayer2.extractor.ts;
 
 import android.util.Log;
 import android.util.Pair;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.extractor.DummyTrackOutput;
-import org.telegram.messenger.exoplayer2.extractor.ExtractorOutput;
-import org.telegram.messenger.exoplayer2.extractor.TrackOutput;
-import org.telegram.messenger.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator;
-import org.telegram.messenger.exoplayer2.util.CodecSpecificDataUtil;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.ParsableBitArray;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.extractor.DummyTrackOutput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorOutput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.TrackOutput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator;
+import com.ferdi2005.secondgram.exoplayer2.util.CodecSpecificDataUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableBitArray;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 import java.util.Arrays;
 import java.util.Collections;
 

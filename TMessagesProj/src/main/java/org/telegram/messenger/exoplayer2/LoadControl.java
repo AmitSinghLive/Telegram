@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2;
+package com.ferdi2005.secondgram.exoplayer2;
 
-import org.telegram.messenger.exoplayer2.source.TrackGroup;
-import org.telegram.messenger.exoplayer2.source.TrackGroupArray;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelectionArray;
-import org.telegram.messenger.exoplayer2.upstream.Allocator;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroup;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroupArray;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelectionArray;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Allocator;
 
 /**
  * Controls buffering of media.

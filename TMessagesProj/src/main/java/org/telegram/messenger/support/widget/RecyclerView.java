@@ -15,7 +15,7 @@
  */
 
 
-package org.telegram.messenger.support.widget;
+package com.ferdi2005.secondgram.support.widget;
 
 import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
 
@@ -55,8 +55,8 @@ import android.support.v4.view.accessibility.AccessibilityRecordCompat;
 import android.support.v4.widget.EdgeEffectCompat;
 import android.support.v4.widget.ScrollerCompat;
 
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.SparseArray;
@@ -1507,9 +1507,9 @@ public class RecyclerView extends ViewGroup implements ScrollingView, NestedScro
      * Convenience method to scroll to a certain position.
      *
      * RecyclerView does not implement scrolling logic, rather forwards the call to
-     * {@link org.telegram.messenger.support.widget.RecyclerView.LayoutManager#scrollToPosition(int)}
+     * {@link com.ferdi2005.secondgram.support.widget.RecyclerView.LayoutManager#scrollToPosition(int)}
      * @param position Scroll to this adapter position
-     * @see org.telegram.messenger.support.widget.RecyclerView.LayoutManager#scrollToPosition(int)
+     * @see com.ferdi2005.secondgram.support.widget.RecyclerView.LayoutManager#scrollToPosition(int)
      */
     public void scrollToPosition(int position) {
         if (mLayoutFrozen) {
@@ -1722,7 +1722,7 @@ public class RecyclerView extends ViewGroup implements ScrollingView, NestedScro
      * LayoutManager. </p>
      *
      * @return The horizontal offset of the scrollbar's thumb
-     * @see org.telegram.messenger.support.widget.RecyclerView.LayoutManager#computeHorizontalScrollOffset
+     * @see com.ferdi2005.secondgram.support.widget.RecyclerView.LayoutManager#computeHorizontalScrollOffset
      * (RecyclerView.State)
      */
     @Override
@@ -1795,7 +1795,7 @@ public class RecyclerView extends ViewGroup implements ScrollingView, NestedScro
      * LayoutManager.</p>
      *
      * @return The vertical offset of the scrollbar's thumb
-     * @see org.telegram.messenger.support.widget.RecyclerView.LayoutManager#computeVerticalScrollOffset
+     * @see com.ferdi2005.secondgram.support.widget.RecyclerView.LayoutManager#computeVerticalScrollOffset
      * (RecyclerView.State)
      */
     @Override
@@ -6519,7 +6519,7 @@ public class RecyclerView extends ViewGroup implements ScrollingView, NestedScro
          *
          * <p>The adapter may publish a variety of events describing specific changes.
          * Not all adapters may support all change types and some may fall back to a generic
-         * {@link org.telegram.messenger.support.widget.RecyclerView.AdapterDataObserver#onChanged()
+         * {@link com.ferdi2005.secondgram.support.widget.RecyclerView.AdapterDataObserver#onChanged()
          * "something changed"} event if more specific data is not available.</p>
          *
          * <p>Components registering observers with an adapter are responsible for

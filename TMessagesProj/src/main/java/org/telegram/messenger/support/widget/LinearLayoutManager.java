@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.widget;
+package com.ferdi2005.secondgram.support.widget;
 
 import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
-import static org.telegram.messenger.support.widget.RecyclerView.NO_POSITION;
+import static com.ferdi2005.secondgram.support.widget.RecyclerView.NO_POSITION;
 
 import android.content.Context;
 import android.graphics.PointF;
@@ -27,8 +27,8 @@ import android.support.annotation.RestrictTo;
 import android.support.v4.view.ViewCompat;
 import android.support.v4.view.accessibility.AccessibilityEventCompat;
 import android.support.v4.view.accessibility.AccessibilityRecordCompat;
-import org.telegram.messenger.support.widget.RecyclerView.LayoutParams;
-import org.telegram.messenger.support.widget.helper.ItemTouchHelper;
+import com.ferdi2005.secondgram.support.widget.RecyclerView.LayoutParams;
+import com.ferdi2005.secondgram.support.widget.helper.ItemTouchHelper;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -38,7 +38,7 @@ import android.view.accessibility.AccessibilityEvent;
 import java.util.List;
 
 /**
- * A {@link org.telegram.messenger.support.widget.RecyclerView.LayoutManager} implementation which provides
+ * A {@link com.ferdi2005.secondgram.support.widget.RecyclerView.LayoutManager} implementation which provides
  * similar functionality to {@link android.widget.ListView}.
  */
 public class LinearLayoutManager extends RecyclerView.LayoutManager implements
@@ -357,8 +357,8 @@ public class LinearLayoutManager extends RecyclerView.LayoutManager implements
      * laid out at the end of the UI, second item is laid out before it etc.
      *
      * For horizontal layouts, it depends on the layout direction.
-     * When set to true, If {@link org.telegram.messenger.support.widget.RecyclerView} is LTR, than it will
-     * layout from RTL, if {@link org.telegram.messenger.support.widget.RecyclerView}} is RTL, it will layout
+     * When set to true, If {@link com.ferdi2005.secondgram.support.widget.RecyclerView} is LTR, than it will
+     * layout from RTL, if {@link com.ferdi2005.secondgram.support.widget.RecyclerView}} is RTL, it will layout
      * from LTR.
      *
      * If you are looking for the exact same behavior of
@@ -1337,7 +1337,7 @@ public class LinearLayoutManager extends RecyclerView.LayoutManager implements
      * <p>
      * Checks both layout position and visible position to guarantee that the view is not visible.
      *
-     * @param recycler Recycler instance of {@link org.telegram.messenger.support.widget.RecyclerView}
+     * @param recycler Recycler instance of {@link com.ferdi2005.secondgram.support.widget.RecyclerView}
      * @param dt       This can be used to add additional padding to the visible area. This is used
      *                 to detect children that will go out of bounds after scrolling, without
      *                 actually moving them.
@@ -1382,7 +1382,7 @@ public class LinearLayoutManager extends RecyclerView.LayoutManager implements
      * <p>
      * Checks both layout position and visible position to guarantee that the view is not visible.
      *
-     * @param recycler Recycler instance of {@link org.telegram.messenger.support.widget.RecyclerView}
+     * @param recycler Recycler instance of {@link com.ferdi2005.secondgram.support.widget.RecyclerView}
      * @param dt       This can be used to add additional padding to the visible area. This is used
      *                 to detect children that will go out of bounds after scrolling, without
      *                 actually moving them.
@@ -1427,8 +1427,8 @@ public class LinearLayoutManager extends RecyclerView.LayoutManager implements
      * @param layoutState Current layout state. Right now, this object does not change but
      *                    we may consider moving it out of this view so passing around as a
      *                    parameter for now, rather than accessing {@link #mLayoutState}
-     * @see #recycleViewsFromStart(org.telegram.messenger.support.widget.RecyclerView.Recycler, int)
-     * @see #recycleViewsFromEnd(org.telegram.messenger.support.widget.RecyclerView.Recycler, int)
+     * @see #recycleViewsFromStart(com.ferdi2005.secondgram.support.widget.RecyclerView.Recycler, int)
+     * @see #recycleViewsFromEnd(com.ferdi2005.secondgram.support.widget.RecyclerView.Recycler, int)
      * @see android.support.v7.widget.LinearLayoutManager.LayoutState#mLayoutDirection
      */
     private void recycleByLayoutState(RecyclerView.Recycler recycler, LayoutState layoutState) {

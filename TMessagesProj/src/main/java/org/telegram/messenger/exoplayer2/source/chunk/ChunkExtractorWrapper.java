@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.chunk;
+package com.ferdi2005.secondgram.exoplayer2.source.chunk;
 
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.drm.DrmInitData;
-import org.telegram.messenger.exoplayer2.extractor.Extractor;
-import org.telegram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.telegram.messenger.exoplayer2.extractor.ExtractorOutput;
-import org.telegram.messenger.exoplayer2.extractor.SeekMap;
-import org.telegram.messenger.exoplayer2.extractor.TrackOutput;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmInitData;
+import com.ferdi2005.secondgram.exoplayer2.extractor.Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorInput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorOutput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.SeekMap;
+import com.ferdi2005.secondgram.exoplayer2.extractor.TrackOutput;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 
 /**

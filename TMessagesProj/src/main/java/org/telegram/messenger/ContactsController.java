@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -227,7 +227,7 @@ public class ContactsController {
             FileLog.e(e);
         }
 
-        accounts = am.getAccountsByType("org.telegram.messenger");
+        accounts = am.getAccountsByType("com.ferdi2005.secondgram");
         boolean recreateAccount = false;
         if (UserConfig.isClientActivated()) {
             if (accounts.length == 1) {
@@ -256,7 +256,7 @@ public class ContactsController {
             }
             if (UserConfig.isClientActivated()) {
                 try {
-                    currentAccount = new Account("" + UserConfig.getClientUserId(), "org.telegram.messenger");
+                    currentAccount = new Account("" + UserConfig.getClientUserId(), "com.ferdi2005.secondgram");
                     am.addAccountExplicitly(currentAccount, "", null);
                 } catch (Exception e) {
                     FileLog.e(e);
@@ -268,7 +268,7 @@ public class ContactsController {
     public void deleteAllAppAccounts() {
         try {
             AccountManager am = AccountManager.get(ApplicationLoader.applicationContext);
-            Account[] accounts = am.getAccountsByType("org.telegram.messenger");
+            Account[] accounts = am.getAccountsByType("com.ferdi2005.secondgram");
             for (int a = 0; a < accounts.length; a++) {
                 am.removeAccount(accounts[a], null, null);
             }
@@ -1613,7 +1613,7 @@ public class ContactsController {
 
         builder = ContentProviderOperation.newInsert(ContactsContract.Data.CONTENT_URI);
         builder.withValueBackReference(ContactsContract.Data.RAW_CONTACT_ID, 0);
-        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.org.telegram.messenger.android.profile");
+        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.com.ferdi2005.secondgram.android.profile");
         builder.withValue(ContactsContract.Data.DATA1, user.id);
         builder.withValue(ContactsContract.Data.DATA2, "Telegram Profile");
         builder.withValue(ContactsContract.Data.DATA3, "+" + user.phone);

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.dash.manifest;
+package com.ferdi2005.secondgram.exoplayer2.source.dash.manifest;
 
 import java.util.Locale;
 

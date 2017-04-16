@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.ui;
+package com.ferdi2005.secondgram.exoplayer2.ui;
 
 import android.widget.TextView;
-import org.telegram.messenger.exoplayer2.ExoPlaybackException;
-import org.telegram.messenger.exoplayer2.ExoPlayer;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.SimpleExoPlayer;
-import org.telegram.messenger.exoplayer2.Timeline;
-import org.telegram.messenger.exoplayer2.decoder.DecoderCounters;
-import org.telegram.messenger.exoplayer2.source.TrackGroupArray;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelectionArray;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlaybackException;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlayer;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.SimpleExoPlayer;
+import com.ferdi2005.secondgram.exoplayer2.Timeline;
+import com.ferdi2005.secondgram.exoplayer2.decoder.DecoderCounters;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroupArray;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelectionArray;
 
 /**
  * A helper class for periodically updating a {@link TextView} with debug information obtained from

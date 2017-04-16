@@ -20,9 +20,9 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.MessagesController;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.ContactsController;
+import com.ferdi2005.secondgram.MessagesController;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AvatarDrawable;

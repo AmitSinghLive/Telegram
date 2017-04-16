@@ -14,14 +14,14 @@
  * limitations under the License
  */
 
-package org.telegram.messenger.support.fingerprint;
+package com.ferdi2005.secondgram.support.fingerprint;
 
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Handler;
 
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.FileLog;
 
 import java.security.Signature;
 

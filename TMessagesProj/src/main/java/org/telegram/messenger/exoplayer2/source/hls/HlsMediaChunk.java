@@ -13,26 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.hls;
+package com.ferdi2005.secondgram.exoplayer2.source.hls;
 
 import android.text.TextUtils;
-import org.telegram.messenger.exoplayer2.extractor.DefaultExtractorInput;
-import org.telegram.messenger.exoplayer2.extractor.Extractor;
-import org.telegram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.telegram.messenger.exoplayer2.extractor.TimestampAdjuster;
-import org.telegram.messenger.exoplayer2.extractor.mp3.Mp3Extractor;
-import org.telegram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import org.telegram.messenger.exoplayer2.extractor.ts.Ac3Extractor;
-import org.telegram.messenger.exoplayer2.extractor.ts.AdtsExtractor;
-import org.telegram.messenger.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
-import org.telegram.messenger.exoplayer2.extractor.ts.TsExtractor;
-import org.telegram.messenger.exoplayer2.source.chunk.MediaChunk;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.DataSpec;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.extractor.DefaultExtractorInput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorInput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.TimestampAdjuster;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mp3.Mp3Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ts.Ac3Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ts.AdtsExtractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ts.TsExtractor;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.MediaChunk;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSpec;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 

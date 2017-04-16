@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.smoothstreaming;
+package com.ferdi2005.secondgram.exoplayer2.source.smoothstreaming;
 
 import android.net.Uri;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import org.telegram.messenger.exoplayer2.extractor.mp4.Track;
-import org.telegram.messenger.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import org.telegram.messenger.exoplayer2.source.BehindLiveWindowException;
-import org.telegram.messenger.exoplayer2.source.chunk.Chunk;
-import org.telegram.messenger.exoplayer2.source.chunk.ChunkExtractorWrapper;
-import org.telegram.messenger.exoplayer2.source.chunk.ChunkHolder;
-import org.telegram.messenger.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
-import org.telegram.messenger.exoplayer2.source.chunk.ContainerMediaChunk;
-import org.telegram.messenger.exoplayer2.source.chunk.MediaChunk;
-import org.telegram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import org.telegram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.DataSpec;
-import org.telegram.messenger.exoplayer2.upstream.LoaderErrorThrower;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mp4.Track;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import com.ferdi2005.secondgram.exoplayer2.source.BehindLiveWindowException;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.Chunk;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ChunkExtractorWrapper;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ChunkHolder;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ContainerMediaChunk;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.MediaChunk;
+import com.ferdi2005.secondgram.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import com.ferdi2005.secondgram.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSpec;
+import com.ferdi2005.secondgram.exoplayer2.upstream.LoaderErrorThrower;
 import java.io.IOException;
 import java.util.List;
 

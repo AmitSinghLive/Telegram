@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -50,13 +50,13 @@ import android.provider.OpenableColumns;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 
-import org.telegram.messenger.audioinfo.AudioInfo;
-import org.telegram.messenger.query.SharedMediaQuery;
-import org.telegram.messenger.video.InputSurface;
-import org.telegram.messenger.video.MP4Builder;
-import org.telegram.messenger.video.Mp4Movie;
-import org.telegram.messenger.video.OutputSurface;
-import org.telegram.messenger.voip.VoIPService;
+import com.ferdi2005.secondgram.audioinfo.AudioInfo;
+import com.ferdi2005.secondgram.query.SharedMediaQuery;
+import com.ferdi2005.secondgram.video.InputSurface;
+import com.ferdi2005.secondgram.video.MP4Builder;
+import com.ferdi2005.secondgram.video.Mp4Movie;
+import com.ferdi2005.secondgram.video.OutputSurface;
+import com.ferdi2005.secondgram.voip.VoIPService;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.AlertDialog;

@@ -11,8 +11,8 @@ package org.telegram.ui.Components;
 import android.content.Context;
 import android.util.SparseArray;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.support.widget.GridLayoutManager;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.support.widget.GridLayoutManager;
 
 import java.util.ArrayList;
 

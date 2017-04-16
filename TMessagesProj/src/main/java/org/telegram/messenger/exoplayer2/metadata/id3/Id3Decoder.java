@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.metadata.id3;
+package com.ferdi2005.secondgram.exoplayer2.metadata.id3;
 
 import android.util.Log;
-import org.telegram.messenger.exoplayer2.metadata.Metadata;
-import org.telegram.messenger.exoplayer2.metadata.MetadataDecoder;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.metadata.Metadata;
+import com.ferdi2005.secondgram.exoplayer2.metadata.MetadataDecoder;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;

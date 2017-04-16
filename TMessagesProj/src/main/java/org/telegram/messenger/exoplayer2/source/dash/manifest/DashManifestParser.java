@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.dash.manifest;
+package com.ferdi2005.secondgram.exoplayer2.source.dash.manifest;
 
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
 import android.util.Pair;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.ParserException;
-import org.telegram.messenger.exoplayer2.drm.DrmInitData;
-import org.telegram.messenger.exoplayer2.drm.DrmInitData.SchemeData;
-import org.telegram.messenger.exoplayer2.extractor.mp4.PsshAtomUtil;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SegmentList;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SegmentTemplate;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SegmentTimelineElement;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
-import org.telegram.messenger.exoplayer2.upstream.ParsingLoadable;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.UriUtil;
-import org.telegram.messenger.exoplayer2.util.Util;
-import org.telegram.messenger.exoplayer2.util.XmlPullParserUtil;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.ParserException;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmInitData;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmInitData.SchemeData;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mp4.PsshAtomUtil;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.SegmentBase.SegmentList;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.SegmentBase.SegmentTemplate;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.SegmentBase.SegmentTimelineElement;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
+import com.ferdi2005.secondgram.exoplayer2.upstream.ParsingLoadable;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.UriUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.util.XmlPullParserUtil;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;

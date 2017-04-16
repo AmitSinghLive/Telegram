@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.extractor.wav;
+package com.ferdi2005.secondgram.exoplayer2.extractor.wav;
 
-import org.telegram.messenger.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.C;
 
 /** Header for a WAV file. */
 /*package*/ final class WavHeader {

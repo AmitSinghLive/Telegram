@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.text.subrip;
+package com.ferdi2005.secondgram.exoplayer2.text.subrip;
 
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.text.Cue;
-import org.telegram.messenger.exoplayer2.text.Subtitle;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.text.Cue;
+import com.ferdi2005.secondgram.exoplayer2.text.Subtitle;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.util.Collections;
 import java.util.List;
 

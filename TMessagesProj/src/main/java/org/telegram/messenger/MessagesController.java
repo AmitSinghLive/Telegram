@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.app.Activity;
 import android.content.Context;
@@ -22,12 +22,12 @@ import android.util.SparseIntArray;
 import android.widget.Toast;
 
 import org.telegram.SQLite.SQLiteCursor;
-import org.telegram.messenger.query.BotQuery;
-import org.telegram.messenger.query.DraftQuery;
-import org.telegram.messenger.query.MessagesQuery;
-import org.telegram.messenger.query.SearchQuery;
-import org.telegram.messenger.query.StickersQuery;
-import org.telegram.messenger.voip.VoIPService;
+import com.ferdi2005.secondgram.query.BotQuery;
+import com.ferdi2005.secondgram.query.DraftQuery;
+import com.ferdi2005.secondgram.query.MessagesQuery;
+import com.ferdi2005.secondgram.query.SearchQuery;
+import com.ferdi2005.secondgram.query.StickersQuery;
+import com.ferdi2005.secondgram.voip.VoIPService;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.RequestDelegate;

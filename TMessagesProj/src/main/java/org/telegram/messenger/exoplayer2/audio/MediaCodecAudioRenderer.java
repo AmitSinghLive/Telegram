@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.audio;
+package com.ferdi2005.secondgram.exoplayer2.audio;
 
 import android.annotation.TargetApi;
 import android.media.MediaCodec;
@@ -22,19 +22,19 @@ import android.media.MediaFormat;
 import android.media.PlaybackParams;
 import android.media.audiofx.Virtualizer;
 import android.os.Handler;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.ExoPlaybackException;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.audio.AudioRendererEventListener.EventDispatcher;
-import org.telegram.messenger.exoplayer2.drm.DrmSessionManager;
-import org.telegram.messenger.exoplayer2.drm.FrameworkMediaCrypto;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecInfo;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecRenderer;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecSelector;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
-import org.telegram.messenger.exoplayer2.util.MediaClock;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlaybackException;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.audio.AudioRendererEventListener.EventDispatcher;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmSessionManager;
+import com.ferdi2005.secondgram.exoplayer2.drm.FrameworkMediaCrypto;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecInfo;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecRenderer;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecSelector;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
+import com.ferdi2005.secondgram.exoplayer2.util.MediaClock;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.nio.ByteBuffer;
 
 /**

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.widget;
+package com.ferdi2005.secondgram.support.widget;
 
 import android.content.Context;
 import android.graphics.PointF;

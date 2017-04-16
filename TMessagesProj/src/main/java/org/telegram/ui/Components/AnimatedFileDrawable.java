@@ -23,8 +23,8 @@ import android.os.Handler;
 import android.os.Looper;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.FileLog;
 
 import java.io.File;
 import java.util.concurrent.ScheduledThreadPoolExecutor;

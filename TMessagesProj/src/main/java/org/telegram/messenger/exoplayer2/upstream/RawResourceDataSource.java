@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream;
+package com.ferdi2005.secondgram.exoplayer2.upstream;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.text.TextUtils;
-import org.telegram.messenger.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.C;
 import java.io.EOFException;
 import java.io.FileInputStream;
 import java.io.IOException;

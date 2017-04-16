@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.ui;
+package com.ferdi2005.secondgram.exoplayer2.ui;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -23,10 +23,10 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.accessibility.CaptioningManager;
-import org.telegram.messenger.exoplayer2.text.CaptionStyleCompat;
-import org.telegram.messenger.exoplayer2.text.Cue;
-import org.telegram.messenger.exoplayer2.text.TextRenderer;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.text.CaptionStyleCompat;
+import com.ferdi2005.secondgram.exoplayer2.text.Cue;
+import com.ferdi2005.secondgram.exoplayer2.text.TextRenderer;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.List;
 

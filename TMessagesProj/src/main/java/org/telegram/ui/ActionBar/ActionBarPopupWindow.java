@@ -29,9 +29,9 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.ScrollView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.R;
 import org.telegram.ui.Components.LayoutHelper;
 
 import java.lang.reflect.Field;

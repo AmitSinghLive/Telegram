@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.extractor.mp4;
+package com.ferdi2005.secondgram.exoplayer2.extractor.mp4;
 
-import org.telegram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorInput;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 
 /**

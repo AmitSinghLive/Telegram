@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
 
 public class SizeNotifierFrameLayoutPhoto extends FrameLayout {
 

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.drm;
+package com.ferdi2005.secondgram.exoplayer2.drm;
 
-import org.telegram.messenger.exoplayer2.drm.ExoMediaDrm.KeyRequest;
-import org.telegram.messenger.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
+import com.ferdi2005.secondgram.exoplayer2.drm.ExoMediaDrm.KeyRequest;
+import com.ferdi2005.secondgram.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
 import java.util.UUID;
 
 /**

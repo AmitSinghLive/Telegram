@@ -15,8 +15,8 @@ import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.view.animation.DecelerateInterpolator;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.NotificationCenter;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.NotificationCenter;
 import org.telegram.ui.ActionBar.Theme;
 
 public class PlayingGameDrawable extends Drawable {

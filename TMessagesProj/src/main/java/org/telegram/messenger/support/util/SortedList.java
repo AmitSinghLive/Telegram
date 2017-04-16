@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.util;
+package com.ferdi2005.secondgram.support.util;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -24,7 +24,7 @@ import java.util.Comparator;
 /**
  * A Sorted list implementation that can keep items in order and also notify for changes in the
  * list
- * such that it can be bound to a {@link org.telegram.messenger.support.widget.RecyclerView.Adapter
+ * such that it can be bound to a {@link com.ferdi2005.secondgram.support.widget.RecyclerView.Adapter
  * RecyclerView.Adapter}.
  * <p>
  * It keeps items ordered using the {@link Callback#compare(Object, Object)} method and uses
@@ -719,7 +719,7 @@ public class SortedList<T> {
          * so
          * that you can change its behavior depending on your UI.
          * <p>
-         * For example, if you are using SortedList with a {@link org.telegram.messenger.support.widget.RecyclerView.Adapter
+         * For example, if you are using SortedList with a {@link com.ferdi2005.secondgram.support.widget.RecyclerView.Adapter
          * RecyclerView.Adapter}, you should
          * return whether the items' visual representations are the same or not.
          *

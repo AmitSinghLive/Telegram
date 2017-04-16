@@ -20,6 +20,7 @@ dependencies {
     compile 'net.hockeyapp.android:HockeySDK:4.1.2'
     compile 'com.googlecode.mp4parser:isoparser:1.0.6'
     compile 'com.stripe:stripe-android:2.0.2'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
 }
 
 android {
@@ -27,7 +28,7 @@ android {
     buildToolsVersion '25.0.2'
 
     useLibrary 'org.apache.http.legacy'
-    defaultConfig.applicationId = "org.telegram.messenger"
+    defaultConfig.applicationId = "com.ferdi2005.secondgram"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
@@ -159,7 +160,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 25
-        versionName "0.0.1"
+        versionName "0.8"
 
         externalNativeBuild {
             ndkBuild {

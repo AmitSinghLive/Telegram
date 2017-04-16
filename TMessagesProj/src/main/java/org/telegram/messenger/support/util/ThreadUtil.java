@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.util;
+package com.ferdi2005.secondgram.support.util;
 
 interface ThreadUtil<T> {
 

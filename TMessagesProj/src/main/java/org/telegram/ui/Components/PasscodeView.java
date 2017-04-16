@@ -46,14 +46,14 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.support.fingerprint.FingerprintManagerCompat;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.R;
+import com.ferdi2005.secondgram.UserConfig;
+import com.ferdi2005.secondgram.support.fingerprint.FingerprintManagerCompat;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.ActionBar.Theme;
 

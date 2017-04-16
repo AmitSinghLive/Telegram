@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.extractor.ts;
+package com.ferdi2005.secondgram.exoplayer2.extractor.ts;
 
-import org.telegram.messenger.exoplayer2.extractor.ExtractorOutput;
-import org.telegram.messenger.exoplayer2.extractor.TrackOutput;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorOutput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.TrackOutput;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 
 /**
  * Extracts individual samples from an elementary media stream, preserving original order.

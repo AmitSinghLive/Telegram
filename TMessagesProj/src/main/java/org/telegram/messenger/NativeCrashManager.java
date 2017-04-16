@@ -1,4 +1,4 @@
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.app.Activity;
 import android.net.Uri;

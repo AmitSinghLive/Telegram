@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.text.ttml;
+package com.ferdi2005.secondgram.exoplayer2.text.ttml;
 
 import android.text.Layout;
 import android.util.Log;
 import android.util.Pair;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.text.Cue;
-import org.telegram.messenger.exoplayer2.text.SimpleSubtitleDecoder;
-import org.telegram.messenger.exoplayer2.text.SubtitleDecoderException;
-import org.telegram.messenger.exoplayer2.util.ColorParser;
-import org.telegram.messenger.exoplayer2.util.Util;
-import org.telegram.messenger.exoplayer2.util.XmlPullParserUtil;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.text.Cue;
+import com.ferdi2005.secondgram.exoplayer2.text.SimpleSubtitleDecoder;
+import com.ferdi2005.secondgram.exoplayer2.text.SubtitleDecoderException;
+import com.ferdi2005.secondgram.exoplayer2.util.ColorParser;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.util.XmlPullParserUtil;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.HashMap;

@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package org.telegram.messenger.support.customtabsclient.shared;
+package com.ferdi2005.secondgram.support.customtabsclient.shared;
 
 import android.content.ComponentName;
 
-import org.telegram.messenger.support.customtabs.CustomTabsClient;
-import org.telegram.messenger.support.customtabs.CustomTabsServiceConnection;
+import com.ferdi2005.secondgram.support.customtabs.CustomTabsClient;
+import com.ferdi2005.secondgram.support.customtabs.CustomTabsServiceConnection;
 
 import java.lang.ref.WeakReference;
 

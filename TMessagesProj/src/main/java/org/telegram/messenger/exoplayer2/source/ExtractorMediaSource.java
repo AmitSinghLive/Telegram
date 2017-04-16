@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source;
+package com.ferdi2005.secondgram.exoplayer2.source;
 
 import android.net.Uri;
 import android.os.Handler;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.ParserException;
-import org.telegram.messenger.exoplayer2.Timeline;
-import org.telegram.messenger.exoplayer2.extractor.DefaultExtractorsFactory;
-import org.telegram.messenger.exoplayer2.extractor.Extractor;
-import org.telegram.messenger.exoplayer2.extractor.ExtractorsFactory;
-import org.telegram.messenger.exoplayer2.upstream.Allocator;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.ParserException;
+import com.ferdi2005.secondgram.exoplayer2.Timeline;
+import com.ferdi2005.secondgram.exoplayer2.extractor.DefaultExtractorsFactory;
+import com.ferdi2005.secondgram.exoplayer2.extractor.Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorsFactory;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Allocator;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.io.IOException;
 
 /**

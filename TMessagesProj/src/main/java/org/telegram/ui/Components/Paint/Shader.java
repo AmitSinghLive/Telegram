@@ -4,7 +4,7 @@ import android.graphics.Color;
 import android.opengl.GLES20;
 import android.util.Log;
 
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.FileLog;
 
 import java.util.HashMap;
 import java.util.Map;

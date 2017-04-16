@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2;
+package com.ferdi2005.secondgram.exoplayer2;
 
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
 
 /**
  * Defines the capabilities of a {@link Renderer}.

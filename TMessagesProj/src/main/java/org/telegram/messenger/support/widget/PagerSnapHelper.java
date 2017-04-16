@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.widget;
+package com.ferdi2005.secondgram.support.widget;
 
 import android.graphics.PointF;
 import android.support.annotation.NonNull;
@@ -29,7 +29,7 @@ import android.view.View;
  * <p>
  *
  * PagerSnapHelper can help achieve a similar behavior to {@link android.support.v4.view.ViewPager}.
- * Set both {@link RecyclerView} and {@link org.telegram.messenger.support.widget.RecyclerView.Adapter} to have
+ * Set both {@link RecyclerView} and {@link com.ferdi2005.secondgram.support.widget.RecyclerView.Adapter} to have
  * MATCH_PARENT height and width and then attach PagerSnapHelper to the {@link RecyclerView} using
  * {@link #attachToRecyclerView(RecyclerView)}.
  */

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream;
+package com.ferdi2005.secondgram.exoplayer2.upstream;
 
 import android.net.Uri;
 import android.support.annotation.IntDef;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.Arrays;

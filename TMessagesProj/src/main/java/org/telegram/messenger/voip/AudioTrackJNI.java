@@ -1,4 +1,4 @@
-package org.telegram.messenger.voip;
+package com.ferdi2005.secondgram.voip;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
@@ -10,7 +10,7 @@ import android.media.audiofx.NoiseSuppressor;
 import android.os.Build;
 import android.util.Log;
 
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.FileLog;
 
 import java.nio.ByteBuffer;
 

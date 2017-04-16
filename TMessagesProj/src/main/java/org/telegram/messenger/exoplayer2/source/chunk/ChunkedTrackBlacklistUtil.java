@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.chunk;
+package com.ferdi2005.secondgram.exoplayer2.source.chunk;
 
 import android.util.Log;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.telegram.messenger.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
 
 /**
  * Helper class for blacklisting tracks in a {@link TrackSelection} when 404 (Not Found) and 410

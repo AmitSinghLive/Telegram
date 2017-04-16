@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.extractor.mp4;
+package com.ferdi2005.secondgram.exoplayer2.extractor.mp4;
 
 import android.util.Log;
-import org.telegram.messenger.exoplayer2.metadata.Metadata;
-import org.telegram.messenger.exoplayer2.metadata.id3.ApicFrame;
-import org.telegram.messenger.exoplayer2.metadata.id3.CommentFrame;
-import org.telegram.messenger.exoplayer2.metadata.id3.Id3Frame;
-import org.telegram.messenger.exoplayer2.metadata.id3.TextInformationFrame;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.metadata.Metadata;
+import com.ferdi2005.secondgram.exoplayer2.metadata.id3.ApicFrame;
+import com.ferdi2005.secondgram.exoplayer2.metadata.id3.CommentFrame;
+import com.ferdi2005.secondgram.exoplayer2.metadata.id3.Id3Frame;
+import com.ferdi2005.secondgram.exoplayer2.metadata.id3.TextInformationFrame;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 
 /**
  * Parses metadata items stored in ilst atoms.

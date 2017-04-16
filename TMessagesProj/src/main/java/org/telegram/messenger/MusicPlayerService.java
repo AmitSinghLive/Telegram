@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;
@@ -24,7 +24,7 @@ import android.support.v4.app.NotificationCompat;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import org.telegram.messenger.audioinfo.AudioInfo;
+import com.ferdi2005.secondgram.audioinfo.AudioInfo;
 import org.telegram.ui.LaunchActivity;
 
 public class MusicPlayerService extends Service implements NotificationCenter.NotificationCenterDelegate {

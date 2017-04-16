@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.video;
+package com.ferdi2005.secondgram.exoplayer2.video;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -23,7 +23,7 @@ import android.os.Message;
 import android.view.Choreographer;
 import android.view.Choreographer.FrameCallback;
 import android.view.WindowManager;
-import org.telegram.messenger.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.C;
 
 /**
  * Makes a best effort to adjust frame release timestamps for a smoother visual result.

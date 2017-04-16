@@ -13,28 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.hls;
+package com.ferdi2005.secondgram.exoplayer2.source.hls;
 
 import android.net.Uri;
 import android.os.SystemClock;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.extractor.TimestampAdjuster;
-import org.telegram.messenger.exoplayer2.source.BehindLiveWindowException;
-import org.telegram.messenger.exoplayer2.source.TrackGroup;
-import org.telegram.messenger.exoplayer2.source.chunk.Chunk;
-import org.telegram.messenger.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
-import org.telegram.messenger.exoplayer2.source.chunk.DataChunk;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
-import org.telegram.messenger.exoplayer2.trackselection.BaseTrackSelection;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.DataSpec;
-import org.telegram.messenger.exoplayer2.util.UriUtil;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.extractor.TimestampAdjuster;
+import com.ferdi2005.secondgram.exoplayer2.source.BehindLiveWindowException;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroup;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.Chunk;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.DataChunk;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.BaseTrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSpec;
+import com.ferdi2005.secondgram.exoplayer2.util.UriUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.io.IOException;
 import java.math.BigInteger;
 import java.util.Arrays;

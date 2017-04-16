@@ -1,11 +1,11 @@
-package org.telegram.messenger.voip;
+package com.ferdi2005.secondgram.voip;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.view.KeyEvent;
 
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.FileLog;
 
 /**
  * Created by grishka on 21.11.16.

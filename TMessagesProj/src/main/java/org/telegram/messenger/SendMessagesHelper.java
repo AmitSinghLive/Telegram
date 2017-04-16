@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.app.Activity;
 import android.content.Context;
@@ -27,10 +27,10 @@ import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
-import org.telegram.messenger.audioinfo.AudioInfo;
-import org.telegram.messenger.query.DraftQuery;
-import org.telegram.messenger.query.SearchQuery;
-import org.telegram.messenger.query.StickersQuery;
+import com.ferdi2005.secondgram.audioinfo.AudioInfo;
+import com.ferdi2005.secondgram.query.DraftQuery;
+import com.ferdi2005.secondgram.query.SearchQuery;
+import com.ferdi2005.secondgram.query.StickersQuery;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.QuickAckDelegate;

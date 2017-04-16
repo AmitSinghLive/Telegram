@@ -6,7 +6,7 @@
  * Copyright Grishka, 2013-2016.
  */
 
-package org.telegram.messenger.voip;
+package com.ferdi2005.secondgram.voip;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -55,21 +55,21 @@ import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.KeyEvent;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.BuildConfig;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.MessagesStorage;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.StatsController;
-import org.telegram.messenger.Utilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.BuildConfig;
+import com.ferdi2005.secondgram.BuildVars;
+import com.ferdi2005.secondgram.ContactsController;
+import com.ferdi2005.secondgram.FileLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.ImageLoader;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.MessagesController;
+import com.ferdi2005.secondgram.MessagesStorage;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.R;
+import com.ferdi2005.secondgram.StatsController;
+import com.ferdi2005.secondgram.Utilities;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;

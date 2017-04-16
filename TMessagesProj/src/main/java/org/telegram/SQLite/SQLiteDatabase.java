@@ -8,8 +8,8 @@
 
 package org.telegram.SQLite;
 
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.ApplicationLoader;
 
 public class SQLiteDatabase {
 	private final int sqliteHandle;

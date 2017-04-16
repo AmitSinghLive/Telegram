@@ -14,7 +14,7 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.widget.EditText;
 
-import org.telegram.messenger.AndroidUtilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class HintEditText extends EditText {

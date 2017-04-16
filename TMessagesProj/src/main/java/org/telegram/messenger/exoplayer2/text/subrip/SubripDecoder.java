@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.text.subrip;
+package com.ferdi2005.secondgram.exoplayer2.text.subrip;
 
 import android.text.Html;
 import android.text.Spanned;
 import android.text.TextUtils;
 import android.util.Log;
-import org.telegram.messenger.exoplayer2.text.Cue;
-import org.telegram.messenger.exoplayer2.text.SimpleSubtitleDecoder;
-import org.telegram.messenger.exoplayer2.util.LongArray;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.text.Cue;
+import com.ferdi2005.secondgram.exoplayer2.text.SimpleSubtitleDecoder;
+import com.ferdi2005.secondgram.exoplayer2.util.LongArray;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

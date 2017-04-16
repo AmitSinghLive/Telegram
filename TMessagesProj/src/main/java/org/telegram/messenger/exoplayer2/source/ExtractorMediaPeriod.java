@@ -13,33 +13,33 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source;
+package com.ferdi2005.secondgram.exoplayer2.source;
 
 import android.net.Uri;
 import android.os.Handler;
 import android.util.SparseArray;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.FormatHolder;
-import org.telegram.messenger.exoplayer2.decoder.DecoderInputBuffer;
-import org.telegram.messenger.exoplayer2.extractor.DefaultExtractorInput;
-import org.telegram.messenger.exoplayer2.extractor.DefaultTrackOutput;
-import org.telegram.messenger.exoplayer2.extractor.DefaultTrackOutput.UpstreamFormatChangedListener;
-import org.telegram.messenger.exoplayer2.extractor.Extractor;
-import org.telegram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.telegram.messenger.exoplayer2.extractor.ExtractorOutput;
-import org.telegram.messenger.exoplayer2.extractor.PositionHolder;
-import org.telegram.messenger.exoplayer2.extractor.SeekMap;
-import org.telegram.messenger.exoplayer2.extractor.TrackOutput;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.telegram.messenger.exoplayer2.upstream.Allocator;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.DataSpec;
-import org.telegram.messenger.exoplayer2.upstream.Loader;
-import org.telegram.messenger.exoplayer2.upstream.Loader.Loadable;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.ConditionVariable;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.FormatHolder;
+import com.ferdi2005.secondgram.exoplayer2.decoder.DecoderInputBuffer;
+import com.ferdi2005.secondgram.exoplayer2.extractor.DefaultExtractorInput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.DefaultTrackOutput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.DefaultTrackOutput.UpstreamFormatChangedListener;
+import com.ferdi2005.secondgram.exoplayer2.extractor.Extractor;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorInput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ExtractorOutput;
+import com.ferdi2005.secondgram.exoplayer2.extractor.PositionHolder;
+import com.ferdi2005.secondgram.exoplayer2.extractor.SeekMap;
+import com.ferdi2005.secondgram.exoplayer2.extractor.TrackOutput;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Allocator;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSpec;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Loader;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Loader.Loadable;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.ConditionVariable;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
 import java.io.EOFException;
 import java.io.IOException;
 

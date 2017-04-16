@@ -21,9 +21,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.customtabs;
+package com.ferdi2005.secondgram.support.customtabs;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.video;
+package com.ferdi2005.secondgram.video;
 
 import android.annotation.TargetApi;
 import android.opengl.EGL14;

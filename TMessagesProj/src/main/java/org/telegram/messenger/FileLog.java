@@ -6,11 +6,11 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.util.Log;
 
-import org.telegram.messenger.time.FastDateFormat;
+import com.ferdi2005.secondgram.time.FastDateFormat;
 
 import java.io.File;
 import java.io.FileOutputStream;

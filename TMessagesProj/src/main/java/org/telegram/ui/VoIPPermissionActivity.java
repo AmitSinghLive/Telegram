@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
-import org.telegram.messenger.voip.VoIPService;
+import com.ferdi2005.secondgram.voip.VoIPService;
 import org.telegram.ui.Components.voip.VoIPHelper;
 
 /**

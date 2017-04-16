@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream;
+package com.ferdi2005.secondgram.exoplayer2.upstream;
 
 import android.net.Uri;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.PriorityTaskManager;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.PriorityTaskManager;
 import java.io.IOException;
 
 /**

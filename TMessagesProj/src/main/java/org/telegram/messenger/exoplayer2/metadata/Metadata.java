@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.metadata;
+package com.ferdi2005.secondgram.exoplayer2.metadata;
 
 import android.os.Parcel;
 import android.os.Parcelable;

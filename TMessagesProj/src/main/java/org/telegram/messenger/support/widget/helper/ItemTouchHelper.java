@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.widget.helper;
+package com.ferdi2005.secondgram.support.widget.helper;
 
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -30,11 +30,11 @@ import android.support.v4.view.MotionEventCompat;
 import android.support.v4.view.VelocityTrackerCompat;
 import android.support.v4.view.ViewCompat;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.support.widget.LinearLayoutManager;
-import org.telegram.messenger.support.widget.RecyclerView;
-import org.telegram.messenger.support.widget.RecyclerView.OnItemTouchListener;
-import org.telegram.messenger.support.widget.RecyclerView.ViewHolder;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.support.widget.LinearLayoutManager;
+import com.ferdi2005.secondgram.support.widget.RecyclerView;
+import com.ferdi2005.secondgram.support.widget.RecyclerView.OnItemTouchListener;
+import com.ferdi2005.secondgram.support.widget.RecyclerView.ViewHolder;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.HapticFeedbackConstants;

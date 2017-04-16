@@ -6,13 +6,13 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 public class BuildVars {
     public static boolean DEBUG_VERSION = false;
     public static boolean DEBUG_PRIVATE_VERSION = false;
-    public static int BUILD_VERSION = 1;
-    public static String BUILD_VERSION_STRING = "0.0.1";
+    public static int BUILD_VERSION = 2;
+    public static String BUILD_VERSION_STRING = "0.8";
     public static int APP_ID = 82818; //obtain your own APP_ID at https://core.telegram.org/api/obtaining_api_id
     public static String APP_HASH = "caecb55a559ed638c435bad6aa9eb048"; //obtain your own APP_HASH at https://core.telegram.org/api/obtaining_api_id
     public static String HOCKEY_APP_HASH = "c987c3620dd441fab3d18247cc1c746c";

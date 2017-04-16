@@ -4,10 +4,10 @@ import android.graphics.RectF;
 import android.os.Handler;
 import android.os.HandlerThread;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.DispatchQueue;
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.DispatchQueue;
+import com.ferdi2005.secondgram.FileLog;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

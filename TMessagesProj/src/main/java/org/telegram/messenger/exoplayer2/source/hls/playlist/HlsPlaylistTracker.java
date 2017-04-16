@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.hls.playlist;
+package com.ferdi2005.secondgram.exoplayer2.source.hls.playlist;
 
 import android.net.Uri;
 import android.os.Handler;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.ParserException;
-import org.telegram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.Loader;
-import org.telegram.messenger.exoplayer2.upstream.ParsingLoadable;
-import org.telegram.messenger.exoplayer2.util.UriUtil;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.ParserException;
+import com.ferdi2005.secondgram.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Loader;
+import com.ferdi2005.secondgram.exoplayer2.upstream.ParsingLoadable;
+import com.ferdi2005.secondgram.exoplayer2.util.UriUtil;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.IdentityHashMap;

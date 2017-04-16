@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.widget;
+package com.ferdi2005.secondgram.support.widget;
 
 import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
-import static org.telegram.messenger.support.widget.LayoutState.ITEM_DIRECTION_HEAD;
-import static org.telegram.messenger.support.widget.LayoutState.ITEM_DIRECTION_TAIL;
-import static org.telegram.messenger.support.widget.LayoutState.LAYOUT_END;
-import static org.telegram.messenger.support.widget.LayoutState.LAYOUT_START;
-import static org.telegram.messenger.support.widget.RecyclerView.NO_POSITION;
+import static com.ferdi2005.secondgram.support.widget.LayoutState.ITEM_DIRECTION_HEAD;
+import static com.ferdi2005.secondgram.support.widget.LayoutState.ITEM_DIRECTION_TAIL;
+import static com.ferdi2005.secondgram.support.widget.LayoutState.LAYOUT_END;
+import static com.ferdi2005.secondgram.support.widget.LayoutState.LAYOUT_START;
+import static com.ferdi2005.secondgram.support.widget.RecyclerView.NO_POSITION;
 
 import android.content.Context;
 import android.graphics.PointF;

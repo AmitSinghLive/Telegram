@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger.query;
+package com.ferdi2005.secondgram.query;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,20 +16,20 @@ import android.widget.Toast;
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLiteDatabase;
 import org.telegram.SQLite.SQLitePreparedStatement;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.MessagesStorage;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.MessagesController;
+import com.ferdi2005.secondgram.MessagesStorage;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.R;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
-import org.telegram.messenger.Utilities;
+import com.ferdi2005.secondgram.Utilities;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.Components.StickersArchiveAlert;
 

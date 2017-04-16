@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger.camera;
+package com.ferdi2005.secondgram.camera;
 
 import android.app.Activity;
 import android.content.Context;
@@ -20,8 +20,8 @@ import android.view.OrientationEventListener;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
 
 import java.util.ArrayList;
 

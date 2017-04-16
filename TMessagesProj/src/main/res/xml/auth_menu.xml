@@ -5,8 +5,8 @@
     <PreferenceScreen android:key="account_settings"
         android:title="@string/AccountSettings"
         android:summary="">
-        <intent android:action="org.telegram.messenger.OPEN_ACCOUNT"
-            android:targetPackage="org.telegram.messenger"
+        <intent android:action="com.ferdi2005.secondgram.OPEN_ACCOUNT"
+            android:targetPackage="com.ferdi2005.secondgram"
             android:targetClass="org.telegram.ui.LaunchActivity"/>
     </PreferenceScreen>
 </PreferenceScreen>

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -18,7 +18,7 @@ import android.content.res.Configuration;
 import android.text.format.DateFormat;
 import android.util.Xml;
 
-import org.telegram.messenger.time.FastDateFormat;
+import com.ferdi2005.secondgram.time.FastDateFormat;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.xmlpull.v1.XmlPullParser;

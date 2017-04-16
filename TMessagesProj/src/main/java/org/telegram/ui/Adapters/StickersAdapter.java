@@ -12,10 +12,10 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.view.ViewGroup;
 
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.query.StickersQuery;
-import org.telegram.messenger.support.widget.RecyclerView;
-import org.telegram.messenger.FileLoader;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.query.StickersQuery;
+import com.ferdi2005.secondgram.support.widget.RecyclerView;
+import com.ferdi2005.secondgram.FileLoader;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Cells.StickerCell;
 import org.telegram.ui.Components.RecyclerListView;

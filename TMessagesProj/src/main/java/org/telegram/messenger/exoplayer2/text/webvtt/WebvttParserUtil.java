@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.text.webvtt;
+package com.ferdi2005.secondgram.exoplayer2.text.webvtt;
 
-import org.telegram.messenger.exoplayer2.text.SubtitleDecoderException;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.text.SubtitleDecoderException;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

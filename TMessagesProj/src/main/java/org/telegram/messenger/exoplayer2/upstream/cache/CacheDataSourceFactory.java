@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream.cache;
+package com.ferdi2005.secondgram.exoplayer2.upstream.cache;
 
-import org.telegram.messenger.exoplayer2.upstream.DataSink;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.DataSource.Factory;
-import org.telegram.messenger.exoplayer2.upstream.FileDataSourceFactory;
-import org.telegram.messenger.exoplayer2.upstream.cache.CacheDataSource.EventListener;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSink;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource.Factory;
+import com.ferdi2005.secondgram.exoplayer2.upstream.FileDataSourceFactory;
+import com.ferdi2005.secondgram.exoplayer2.upstream.cache.CacheDataSource.EventListener;
 
 /**
  * A {@link DataSource.Factory} that produces {@link CacheDataSource}.

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.text.ttml;
+package com.ferdi2005.secondgram.exoplayer2.text.ttml;
 
 import android.graphics.Typeface;
 import android.support.annotation.IntDef;
 import android.text.Layout;
-import org.telegram.messenger.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 

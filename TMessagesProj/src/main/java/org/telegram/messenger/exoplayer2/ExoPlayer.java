@@ -13,25 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2;
+package com.ferdi2005.secondgram.exoplayer2;
 
-import org.telegram.messenger.exoplayer2.audio.MediaCodecAudioRenderer;
-import org.telegram.messenger.exoplayer2.metadata.MetadataRenderer;
-import org.telegram.messenger.exoplayer2.source.ConcatenatingMediaSource;
-import org.telegram.messenger.exoplayer2.source.ExtractorMediaSource;
-import org.telegram.messenger.exoplayer2.source.MediaSource;
-import org.telegram.messenger.exoplayer2.source.MergingMediaSource;
-import org.telegram.messenger.exoplayer2.source.SingleSampleMediaSource;
-import org.telegram.messenger.exoplayer2.source.TrackGroupArray;
-import org.telegram.messenger.exoplayer2.source.dash.DashMediaSource;
-import org.telegram.messenger.exoplayer2.source.hls.HlsMediaSource;
-import org.telegram.messenger.exoplayer2.source.smoothstreaming.SsMediaSource;
-import org.telegram.messenger.exoplayer2.text.TextRenderer;
-import org.telegram.messenger.exoplayer2.trackselection.DefaultTrackSelector;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelectionArray;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelector;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.video.MediaCodecVideoRenderer;
+import com.ferdi2005.secondgram.exoplayer2.audio.MediaCodecAudioRenderer;
+import com.ferdi2005.secondgram.exoplayer2.metadata.MetadataRenderer;
+import com.ferdi2005.secondgram.exoplayer2.source.ConcatenatingMediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.ExtractorMediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.MergingMediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.SingleSampleMediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroupArray;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.DashMediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.HlsMediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.smoothstreaming.SsMediaSource;
+import com.ferdi2005.secondgram.exoplayer2.text.TextRenderer;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.DefaultTrackSelector;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelectionArray;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelector;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.video.MediaCodecVideoRenderer;
 
 /**
  * An extensible media player exposing traditional high-level media player functionality, such as

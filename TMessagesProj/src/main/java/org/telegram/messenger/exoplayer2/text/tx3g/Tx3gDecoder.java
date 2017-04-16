@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.text.tx3g;
+package com.ferdi2005.secondgram.exoplayer2.text.tx3g;
 
-import org.telegram.messenger.exoplayer2.text.Cue;
-import org.telegram.messenger.exoplayer2.text.SimpleSubtitleDecoder;
-import org.telegram.messenger.exoplayer2.text.Subtitle;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.text.Cue;
+import com.ferdi2005.secondgram.exoplayer2.text.SimpleSubtitleDecoder;
+import com.ferdi2005.secondgram.exoplayer2.text.Subtitle;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 
 /**
  * A {@link SimpleSubtitleDecoder} for tx3g.

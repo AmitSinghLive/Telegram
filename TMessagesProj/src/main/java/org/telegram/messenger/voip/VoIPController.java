@@ -6,15 +6,15 @@
  * Copyright Grishka, 2013-2016.
  */
 
-package org.telegram.messenger.voip;
+package com.ferdi2005.secondgram.voip;
 
 import android.media.audiofx.AcousticEchoCanceler;
 import android.media.audiofx.NoiseSuppressor;
 import android.os.Build;
 import android.os.SystemClock;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.BuildConfig;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.BuildConfig;
 import org.telegram.tgnet.TLRPC;
 
 import java.io.File;

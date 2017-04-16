@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.widget;
+package com.ferdi2005.secondgram.support.widget;
 
 import java.util.List;
 
-import org.telegram.messenger.support.widget.AdapterHelper.UpdateOp;
-import static org.telegram.messenger.support.widget.AdapterHelper.UpdateOp.ADD;
-import static org.telegram.messenger.support.widget.AdapterHelper.UpdateOp.MOVE;
-import static org.telegram.messenger.support.widget.AdapterHelper.UpdateOp.REMOVE;
-import static org.telegram.messenger.support.widget.AdapterHelper.UpdateOp.UPDATE;
+import com.ferdi2005.secondgram.support.widget.AdapterHelper.UpdateOp;
+import static com.ferdi2005.secondgram.support.widget.AdapterHelper.UpdateOp.ADD;
+import static com.ferdi2005.secondgram.support.widget.AdapterHelper.UpdateOp.MOVE;
+import static com.ferdi2005.secondgram.support.widget.AdapterHelper.UpdateOp.REMOVE;
+import static com.ferdi2005.secondgram.support.widget.AdapterHelper.UpdateOp.UPDATE;
 
 class OpReorderer {
 

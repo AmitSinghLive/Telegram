@@ -1,4 +1,4 @@
-package org.telegram.messenger.voip;
+package com.ferdi2005.secondgram.voip;
 
 /**
  * Created by grishka on 13.03.17.

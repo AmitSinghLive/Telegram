@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.extractor.ts;
+package com.ferdi2005.secondgram.exoplayer2.extractor.ts;
 
 import android.support.annotation.IntDef;
 import android.util.SparseArray;
-import org.telegram.messenger.exoplayer2.extractor.ts.TsPayloadReader.EsInfo;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ts.TsPayloadReader.EsInfo;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 

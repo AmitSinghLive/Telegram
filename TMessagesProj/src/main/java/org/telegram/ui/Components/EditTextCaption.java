@@ -23,9 +23,9 @@ import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.R;
 
 public class EditTextCaption extends EditTextBoldCursor {
 

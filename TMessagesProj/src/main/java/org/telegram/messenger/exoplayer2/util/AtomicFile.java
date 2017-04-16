@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.exoplayer2.util;
+package com.ferdi2005.secondgram.exoplayer2.util;
 
 import android.util.Log;
 import java.io.File;

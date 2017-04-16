@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.audio;
+package com.ferdi2005.secondgram.exoplayer2.audio;
 
 import android.media.PlaybackParams;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
-import org.telegram.messenger.exoplayer2.BaseRenderer;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.ExoPlaybackException;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.FormatHolder;
-import org.telegram.messenger.exoplayer2.audio.AudioRendererEventListener.EventDispatcher;
-import org.telegram.messenger.exoplayer2.decoder.DecoderCounters;
-import org.telegram.messenger.exoplayer2.decoder.DecoderInputBuffer;
-import org.telegram.messenger.exoplayer2.decoder.SimpleDecoder;
-import org.telegram.messenger.exoplayer2.decoder.SimpleOutputBuffer;
-import org.telegram.messenger.exoplayer2.drm.DrmSession;
-import org.telegram.messenger.exoplayer2.drm.DrmSessionManager;
-import org.telegram.messenger.exoplayer2.drm.ExoMediaCrypto;
-import org.telegram.messenger.exoplayer2.util.MediaClock;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.TraceUtil;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.BaseRenderer;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlaybackException;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.FormatHolder;
+import com.ferdi2005.secondgram.exoplayer2.audio.AudioRendererEventListener.EventDispatcher;
+import com.ferdi2005.secondgram.exoplayer2.decoder.DecoderCounters;
+import com.ferdi2005.secondgram.exoplayer2.decoder.DecoderInputBuffer;
+import com.ferdi2005.secondgram.exoplayer2.decoder.SimpleDecoder;
+import com.ferdi2005.secondgram.exoplayer2.decoder.SimpleOutputBuffer;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmSession;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmSessionManager;
+import com.ferdi2005.secondgram.exoplayer2.drm.ExoMediaCrypto;
+import com.ferdi2005.secondgram.exoplayer2.util.MediaClock;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.TraceUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 
 /**
  * Decodes and renders audio using a {@link SimpleDecoder}.

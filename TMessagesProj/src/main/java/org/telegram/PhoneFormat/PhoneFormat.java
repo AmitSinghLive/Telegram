@@ -24,8 +24,8 @@
 
 package org.telegram.PhoneFormat;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

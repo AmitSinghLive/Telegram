@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.drm;
+package com.ferdi2005.secondgram.exoplayer2.drm;
 
 import android.annotation.TargetApi;
 import android.media.DeniedByServerException;
@@ -23,7 +23,7 @@ import android.media.MediaDrm;
 import android.media.NotProvisionedException;
 import android.media.ResourceBusyException;
 import android.media.UnsupportedSchemeException;
-import org.telegram.messenger.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;

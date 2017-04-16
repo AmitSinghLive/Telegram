@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2;
+package com.ferdi2005.secondgram.exoplayer2;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -22,20 +22,20 @@ import android.os.Process;
 import android.os.SystemClock;
 import android.util.Log;
 import android.util.Pair;
-import org.telegram.messenger.exoplayer2.ExoPlayer.ExoPlayerMessage;
-import org.telegram.messenger.exoplayer2.source.MediaPeriod;
-import org.telegram.messenger.exoplayer2.source.MediaSource;
-import org.telegram.messenger.exoplayer2.source.SampleStream;
-import org.telegram.messenger.exoplayer2.source.TrackGroupArray;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelectionArray;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelector;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.MediaClock;
-import org.telegram.messenger.exoplayer2.util.PriorityHandlerThread;
-import org.telegram.messenger.exoplayer2.util.StandaloneMediaClock;
-import org.telegram.messenger.exoplayer2.util.TraceUtil;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlayer.ExoPlayerMessage;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaPeriod;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.SampleStream;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroupArray;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelectionArray;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelector;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.MediaClock;
+import com.ferdi2005.secondgram.exoplayer2.util.PriorityHandlerThread;
+import com.ferdi2005.secondgram.exoplayer2.util.StandaloneMediaClock;
+import com.ferdi2005.secondgram.exoplayer2.util.TraceUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.io.IOException;
 
 /**

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger.camera;
+package com.ferdi2005.secondgram.camera;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
@@ -20,12 +20,12 @@ import android.media.ThumbnailUtils;
 import android.os.Build;
 import android.provider.MediaStore;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Bitmaps;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.Utilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.Bitmaps;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.ImageLoader;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.Utilities;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -473,7 +473,7 @@ public class CameraController implements MediaRecorder.OnInfoListener {
                             recorder.setMaxFileSize(1024 * 1024 * 1024);
                             recorder.setVideoFrameRate(30);
                             recorder.setMaxDuration(0);
-                            org.telegram.messenger.camera.Size pictureSize;
+                            com.ferdi2005.secondgram.camera.Size pictureSize;
                             if (recordingSmallVideo) {
                                 pictureSize = new Size(4, 3);
                                 pictureSize = CameraController.chooseOptimalSize(info.getPictureSizes(), 640, 480, pictureSize);

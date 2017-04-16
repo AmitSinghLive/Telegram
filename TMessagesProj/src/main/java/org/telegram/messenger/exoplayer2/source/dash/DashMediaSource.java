@@ -13,30 +13,30 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.dash;
+package com.ferdi2005.secondgram.exoplayer2.source.dash;
 
 import android.net.Uri;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.util.Log;
 import android.util.SparseArray;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.ParserException;
-import org.telegram.messenger.exoplayer2.Timeline;
-import org.telegram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener;
-import org.telegram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import org.telegram.messenger.exoplayer2.source.MediaPeriod;
-import org.telegram.messenger.exoplayer2.source.MediaSource;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.DashManifest;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.DashManifestParser;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.UtcTimingElement;
-import org.telegram.messenger.exoplayer2.upstream.Allocator;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.Loader;
-import org.telegram.messenger.exoplayer2.upstream.LoaderErrorThrower;
-import org.telegram.messenger.exoplayer2.upstream.ParsingLoadable;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.ParserException;
+import com.ferdi2005.secondgram.exoplayer2.Timeline;
+import com.ferdi2005.secondgram.exoplayer2.source.AdaptiveMediaSourceEventListener;
+import com.ferdi2005.secondgram.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaPeriod;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.DashManifest;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.DashManifestParser;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.UtcTimingElement;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Allocator;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Loader;
+import com.ferdi2005.secondgram.exoplayer2.upstream.LoaderErrorThrower;
+import com.ferdi2005.secondgram.exoplayer2.upstream.ParsingLoadable;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -566,7 +566,7 @@ public final class DashMediaSource implements MediaSource {
   private static final class PeriodSeekInfo {
 
     public static PeriodSeekInfo createPeriodSeekInfo(
-        org.telegram.messenger.exoplayer2.source.dash.manifest.Period period, long durationUs) {
+        com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.Period period, long durationUs) {
       int adaptationSetCount = period.adaptationSets.size();
       long availableStartTimeUs = 0;
       long availableEndTimeUs = Long.MAX_VALUE;
@@ -692,7 +692,7 @@ public final class DashMediaSource implements MediaSource {
         periodIndex++;
         periodDurationUs = manifest.getPeriodDurationUs(periodIndex);
       }
-      org.telegram.messenger.exoplayer2.source.dash.manifest.Period period =
+      com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.Period period =
           manifest.getPeriod(periodIndex);
       int videoAdaptationSetIndex = period.getAdaptationSetIndex(C.TRACK_TYPE_VIDEO);
       if (videoAdaptationSetIndex == C.INDEX_UNSET) {

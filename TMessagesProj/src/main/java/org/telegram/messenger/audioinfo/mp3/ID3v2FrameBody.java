@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.audioinfo.mp3;
+package com.ferdi2005.secondgram.audioinfo.mp3;
 
-import org.telegram.messenger.audioinfo.util.RangeInputStream;
+import com.ferdi2005.secondgram.audioinfo.util.RangeInputStream;
 
 import java.io.IOException;
 import java.io.InputStream;

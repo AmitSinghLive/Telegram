@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.util;
+package com.ferdi2005.secondgram.support.util;
 
 import android.support.annotation.UiThread;
 import android.support.annotation.WorkerThread;
@@ -39,7 +39,7 @@ import android.util.SparseIntArray;
  * Note that this class uses a single thread to load the data, so it suitable to load data from
  * secondary storage such as disk, but not from network.
  * <p>
- * This class is designed to work with {@link org.telegram.messenger.support.widget.RecyclerView}, but it does
+ * This class is designed to work with {@link com.ferdi2005.secondgram.support.widget.RecyclerView}, but it does
  * not depend on it and can be used with other list views.
  *
  */
@@ -110,7 +110,7 @@ public class AsyncListUtil<T> {
      * <p>
      * Identifies the data items that have not been loaded yet and initiates loading them in the
      * background. Should be called from the view's scroll listener (such as
-     * {@link org.telegram.messenger.support.widget.RecyclerView.OnScrollListener#onScrolled}).
+     * {@link com.ferdi2005.secondgram.support.widget.RecyclerView.OnScrollListener#onScrolled}).
      */
     public void onRangeChanged() {
         if (isRefreshPending()) {

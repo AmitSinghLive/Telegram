@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.video;
+package com.ferdi2005.secondgram.video;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

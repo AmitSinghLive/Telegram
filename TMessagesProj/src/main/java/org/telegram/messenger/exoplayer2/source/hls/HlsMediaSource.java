@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.hls;
+package com.ferdi2005.secondgram.exoplayer2.source.hls;
 
 import android.net.Uri;
 import android.os.Handler;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener;
-import org.telegram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import org.telegram.messenger.exoplayer2.source.MediaPeriod;
-import org.telegram.messenger.exoplayer2.source.MediaSource;
-import org.telegram.messenger.exoplayer2.source.SinglePeriodTimeline;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
-import org.telegram.messenger.exoplayer2.upstream.Allocator;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.source.AdaptiveMediaSourceEventListener;
+import com.ferdi2005.secondgram.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaPeriod;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.SinglePeriodTimeline;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Allocator;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.util.List;
 

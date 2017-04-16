@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2;
+package com.ferdi2005.secondgram.exoplayer2;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -27,25 +27,25 @@ import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.TextureView;
-import org.telegram.messenger.exoplayer2.audio.AudioCapabilities;
-import org.telegram.messenger.exoplayer2.audio.AudioRendererEventListener;
-import org.telegram.messenger.exoplayer2.audio.AudioTrack;
-import org.telegram.messenger.exoplayer2.audio.MediaCodecAudioRenderer;
-import org.telegram.messenger.exoplayer2.decoder.DecoderCounters;
-import org.telegram.messenger.exoplayer2.drm.DrmSessionManager;
-import org.telegram.messenger.exoplayer2.drm.FrameworkMediaCrypto;
-import org.telegram.messenger.exoplayer2.mediacodec.MediaCodecSelector;
-import org.telegram.messenger.exoplayer2.metadata.Metadata;
-import org.telegram.messenger.exoplayer2.metadata.MetadataRenderer;
-import org.telegram.messenger.exoplayer2.metadata.id3.Id3Decoder;
-import org.telegram.messenger.exoplayer2.source.MediaSource;
-import org.telegram.messenger.exoplayer2.source.TrackGroupArray;
-import org.telegram.messenger.exoplayer2.text.Cue;
-import org.telegram.messenger.exoplayer2.text.TextRenderer;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelectionArray;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelector;
-import org.telegram.messenger.exoplayer2.video.MediaCodecVideoRenderer;
-import org.telegram.messenger.exoplayer2.video.VideoRendererEventListener;
+import com.ferdi2005.secondgram.exoplayer2.audio.AudioCapabilities;
+import com.ferdi2005.secondgram.exoplayer2.audio.AudioRendererEventListener;
+import com.ferdi2005.secondgram.exoplayer2.audio.AudioTrack;
+import com.ferdi2005.secondgram.exoplayer2.audio.MediaCodecAudioRenderer;
+import com.ferdi2005.secondgram.exoplayer2.decoder.DecoderCounters;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmSessionManager;
+import com.ferdi2005.secondgram.exoplayer2.drm.FrameworkMediaCrypto;
+import com.ferdi2005.secondgram.exoplayer2.mediacodec.MediaCodecSelector;
+import com.ferdi2005.secondgram.exoplayer2.metadata.Metadata;
+import com.ferdi2005.secondgram.exoplayer2.metadata.MetadataRenderer;
+import com.ferdi2005.secondgram.exoplayer2.metadata.id3.Id3Decoder;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroupArray;
+import com.ferdi2005.secondgram.exoplayer2.text.Cue;
+import com.ferdi2005.secondgram.exoplayer2.text.TextRenderer;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelectionArray;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelector;
+import com.ferdi2005.secondgram.exoplayer2.video.MediaCodecVideoRenderer;
+import com.ferdi2005.secondgram.exoplayer2.video.VideoRendererEventListener;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Constructor;
@@ -671,7 +671,7 @@ public class SimpleExoPlayer implements ExoPlayer {
 
     try {
       Class<?> clazz =
-          Class.forName("org.telegram.messenger.exoplayer2.ext.vp9.LibvpxVideoRenderer");
+          Class.forName("com.ferdi2005.secondgram.exoplayer2.ext.vp9.LibvpxVideoRenderer");
       Constructor<?> constructor = clazz.getConstructor(boolean.class, long.class, Handler.class,
           VideoRendererEventListener.class, int.class);
       Renderer renderer = (Renderer) constructor.newInstance(true, allowedVideoJoiningTimeMs,
@@ -713,7 +713,7 @@ public class SimpleExoPlayer implements ExoPlayer {
 
     try {
       Class<?> clazz =
-          Class.forName("org.telegram.messenger.exoplayer2.ext.opus.LibopusAudioRenderer");
+          Class.forName("com.ferdi2005.secondgram.exoplayer2.ext.opus.LibopusAudioRenderer");
       Constructor<?> constructor = clazz.getConstructor(Handler.class,
           AudioRendererEventListener.class);
       Renderer renderer = (Renderer) constructor.newInstance(mainHandler, componentListener);
@@ -727,7 +727,7 @@ public class SimpleExoPlayer implements ExoPlayer {
 
     try {
       Class<?> clazz =
-          Class.forName("org.telegram.messenger.exoplayer2.ext.flac.LibflacAudioRenderer");
+          Class.forName("com.ferdi2005.secondgram.exoplayer2.ext.flac.LibflacAudioRenderer");
       Constructor<?> constructor = clazz.getConstructor(Handler.class,
           AudioRendererEventListener.class);
       Renderer renderer = (Renderer) constructor.newInstance(mainHandler, componentListener);
@@ -741,7 +741,7 @@ public class SimpleExoPlayer implements ExoPlayer {
 
     try {
       Class<?> clazz =
-          Class.forName("org.telegram.messenger.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
+          Class.forName("com.ferdi2005.secondgram.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
       Constructor<?> constructor = clazz.getConstructor(Handler.class,
           AudioRendererEventListener.class);
       Renderer renderer = (Renderer) constructor.newInstance(mainHandler, componentListener);

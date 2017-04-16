@@ -32,9 +32,9 @@ import android.view.VelocityTracker;
 import android.view.ViewConfiguration;
 import android.widget.CompoundButton;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.R;
 import org.telegram.ui.ActionBar.Theme;
 
 public class Switch extends CompoundButton {

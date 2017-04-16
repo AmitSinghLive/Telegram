@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.text.cea;
+package com.ferdi2005.secondgram.exoplayer2.text.cea;
 
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.text.Subtitle;
-import org.telegram.messenger.exoplayer2.text.SubtitleDecoder;
-import org.telegram.messenger.exoplayer2.text.SubtitleDecoderException;
-import org.telegram.messenger.exoplayer2.text.SubtitleInputBuffer;
-import org.telegram.messenger.exoplayer2.text.SubtitleOutputBuffer;
-import org.telegram.messenger.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.text.Subtitle;
+import com.ferdi2005.secondgram.exoplayer2.text.SubtitleDecoder;
+import com.ferdi2005.secondgram.exoplayer2.text.SubtitleDecoderException;
+import com.ferdi2005.secondgram.exoplayer2.text.SubtitleInputBuffer;
+import com.ferdi2005.secondgram.exoplayer2.text.SubtitleOutputBuffer;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
 import java.util.LinkedList;
 import java.util.TreeSet;
 

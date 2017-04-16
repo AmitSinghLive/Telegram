@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.drm;
+package com.ferdi2005.secondgram.exoplayer2.drm;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -25,14 +25,14 @@ import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
 import android.text.TextUtils;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.drm.DrmInitData.SchemeData;
-import org.telegram.messenger.exoplayer2.drm.ExoMediaDrm.KeyRequest;
-import org.telegram.messenger.exoplayer2.drm.ExoMediaDrm.OnEventListener;
-import org.telegram.messenger.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
-import org.telegram.messenger.exoplayer2.extractor.mp4.PsshAtomUtil;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmInitData.SchemeData;
+import com.ferdi2005.secondgram.exoplayer2.drm.ExoMediaDrm.KeyRequest;
+import com.ferdi2005.secondgram.exoplayer2.drm.ExoMediaDrm.OnEventListener;
+import com.ferdi2005.secondgram.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mp4.PsshAtomUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.util.HashMap;
 import java.util.UUID;
 

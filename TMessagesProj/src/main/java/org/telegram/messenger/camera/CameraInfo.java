@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger.camera;
+package com.ferdi2005.secondgram.camera;
 
 import android.hardware.Camera;
 

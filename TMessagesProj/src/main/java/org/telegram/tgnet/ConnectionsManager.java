@@ -10,16 +10,16 @@ import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.PowerManager;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.StatsController;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.BuildVars;
+import com.ferdi2005.secondgram.ContactsController;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.MessagesController;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.StatsController;
+import com.ferdi2005.secondgram.UserConfig;
+import com.ferdi2005.secondgram.Utilities;
 
 import java.net.Inet4Address;
 import java.net.Inet6Address;

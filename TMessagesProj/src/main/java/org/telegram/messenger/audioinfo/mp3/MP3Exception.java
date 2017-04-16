@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.audioinfo.mp3;
+package com.ferdi2005.secondgram.audioinfo.mp3;
 
 public class MP3Exception extends Exception {
 	private static final long serialVersionUID = 1L;

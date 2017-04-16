@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream;
+package com.ferdi2005.secondgram.exoplayer2.upstream;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;
@@ -21,9 +21,9 @@ import android.os.Looper;
 import android.os.Message;
 import android.os.SystemClock;
 import android.util.Log;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.TraceUtil;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.TraceUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;
 

@@ -33,14 +33,14 @@ import android.view.ViewOutlineProvider;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.VideoEditedInfo;
-import org.telegram.messenger.camera.CameraController;
-import org.telegram.messenger.camera.CameraView;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.MediaController;
+import com.ferdi2005.secondgram.NotificationCenter;
+import com.ferdi2005.secondgram.VideoEditedInfo;
+import com.ferdi2005.secondgram.camera.CameraController;
+import com.ferdi2005.secondgram.camera.CameraView;
 import org.telegram.ui.ChatActivity;
 
 import java.io.File;

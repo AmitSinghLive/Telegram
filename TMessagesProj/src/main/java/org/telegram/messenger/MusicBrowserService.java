@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -37,8 +37,8 @@ import android.service.media.MediaBrowserService;
 import android.text.TextUtils;
 
 import org.telegram.SQLite.SQLiteCursor;
-import org.telegram.messenger.audioinfo.AudioInfo;
-import org.telegram.messenger.query.SharedMediaQuery;
+import com.ferdi2005.secondgram.audioinfo.AudioInfo;
+import com.ferdi2005.secondgram.query.SharedMediaQuery;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.LaunchActivity;

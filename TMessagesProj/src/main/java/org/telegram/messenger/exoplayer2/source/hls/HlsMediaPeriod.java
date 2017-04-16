@@ -13,26 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.hls;
+package com.ferdi2005.secondgram.exoplayer2.source.hls;
 
 import android.os.Handler;
 import android.text.TextUtils;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import org.telegram.messenger.exoplayer2.source.CompositeSequenceableLoader;
-import org.telegram.messenger.exoplayer2.source.MediaPeriod;
-import org.telegram.messenger.exoplayer2.source.SampleStream;
-import org.telegram.messenger.exoplayer2.source.TrackGroup;
-import org.telegram.messenger.exoplayer2.source.TrackGroupArray;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.telegram.messenger.exoplayer2.upstream.Allocator;
-import org.telegram.messenger.exoplayer2.upstream.DataSource;
-import org.telegram.messenger.exoplayer2.upstream.Loader;
-import org.telegram.messenger.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import com.ferdi2005.secondgram.exoplayer2.source.CompositeSequenceableLoader;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaPeriod;
+import com.ferdi2005.secondgram.exoplayer2.source.SampleStream;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroup;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroupArray;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMasterPlaylist;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Allocator;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource;
+import com.ferdi2005.secondgram.exoplayer2.upstream.Loader;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.IdentityHashMap;

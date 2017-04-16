@@ -35,14 +35,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.support.widget.LinearLayoutManager;
-import org.telegram.messenger.support.widget.RecyclerView;
-import org.telegram.messenger.DispatchQueue;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.R;
-import org.telegram.messenger.Utilities;
+import com.ferdi2005.secondgram.AndroidUtilities;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.support.widget.LinearLayoutManager;
+import com.ferdi2005.secondgram.support.widget.RecyclerView;
+import com.ferdi2005.secondgram.DispatchQueue;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.R;
+import com.ferdi2005.secondgram.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.PhotoEditToolCell;
 

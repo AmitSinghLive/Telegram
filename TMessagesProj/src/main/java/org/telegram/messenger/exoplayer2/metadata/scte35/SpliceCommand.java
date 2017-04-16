@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.metadata.scte35;
+package com.ferdi2005.secondgram.exoplayer2.metadata.scte35;
 
-import org.telegram.messenger.exoplayer2.metadata.Metadata;
+import com.ferdi2005.secondgram.exoplayer2.metadata.Metadata;
 
 /**
  * Superclass for SCTE35 splice commands.

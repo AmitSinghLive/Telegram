@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger;
+package com.ferdi2005.secondgram;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -1954,7 +1954,7 @@ public class NotificationsController {
 
             Intent msgHeardIntent = new Intent();
             msgHeardIntent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
-            msgHeardIntent.setAction("org.telegram.messenger.ACTION_MESSAGE_HEARD");
+            msgHeardIntent.setAction("com.ferdi2005.secondgram.ACTION_MESSAGE_HEARD");
             msgHeardIntent.putExtra("dialog_id", dialog_id);
             msgHeardIntent.putExtra("max_id", max_id);
             PendingIntent msgHeardPendingIntent = PendingIntent.getBroadcast(ApplicationLoader.applicationContext, notificationId, msgHeardIntent, PendingIntent.FLAG_UPDATE_CURRENT);
@@ -1965,7 +1965,7 @@ public class NotificationsController {
             if ((!ChatObject.isChannel(chat) || chat != null && chat.megagroup) && !AndroidUtilities.needShowPasscode(false) && !UserConfig.isWaitingForPasscodeEnter) {
                 Intent msgReplyIntent = new Intent();
                 msgReplyIntent.addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES);
-                msgReplyIntent.setAction("org.telegram.messenger.ACTION_MESSAGE_REPLY");
+                msgReplyIntent.setAction("com.ferdi2005.secondgram.ACTION_MESSAGE_REPLY");
                 msgReplyIntent.putExtra("dialog_id", dialog_id);
                 msgReplyIntent.putExtra("max_id", max_id);
                 PendingIntent msgReplyPendingIntent = PendingIntent.getBroadcast(ApplicationLoader.applicationContext, notificationId, msgReplyIntent, PendingIntent.FLAG_UPDATE_CURRENT);

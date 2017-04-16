@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.telegram.messenger.support.fingerprint;
+package com.ferdi2005.secondgram.support.fingerprint;
 
 import android.content.Context;
 import android.os.Build;

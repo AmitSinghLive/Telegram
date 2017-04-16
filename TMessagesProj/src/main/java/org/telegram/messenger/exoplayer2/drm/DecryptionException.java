@@ -1,4 +1,4 @@
-package org.telegram.messenger.exoplayer2.drm;
+package com.ferdi2005.secondgram.exoplayer2.drm;
 
 /**
  * An exception when doing drm decryption using the In-App Drm

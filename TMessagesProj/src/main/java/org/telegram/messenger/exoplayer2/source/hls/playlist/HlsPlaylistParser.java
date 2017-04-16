@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.hls.playlist;
+package com.ferdi2005.secondgram.exoplayer2.source.hls.playlist;
 
 import android.net.Uri;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.ParserException;
-import org.telegram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import org.telegram.messenger.exoplayer2.upstream.ParsingLoadable;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.ParserException;
+import com.ferdi2005.secondgram.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import com.ferdi2005.secondgram.exoplayer2.upstream.ParsingLoadable;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;

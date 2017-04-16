@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2;
+package com.ferdi2005.secondgram.exoplayer2;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
-import org.telegram.messenger.exoplayer2.ExoPlayerImplInternal.PlaybackInfo;
-import org.telegram.messenger.exoplayer2.ExoPlayerImplInternal.SourceInfo;
-import org.telegram.messenger.exoplayer2.ExoPlayerImplInternal.TrackInfo;
-import org.telegram.messenger.exoplayer2.source.MediaSource;
-import org.telegram.messenger.exoplayer2.source.TrackGroupArray;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelectionArray;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelector;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlayerImplInternal.PlaybackInfo;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlayerImplInternal.SourceInfo;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlayerImplInternal.TrackInfo;
+import com.ferdi2005.secondgram.exoplayer2.source.MediaSource;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroupArray;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelectionArray;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelector;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 /**

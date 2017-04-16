@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream;
+package com.ferdi2005.secondgram.exoplayer2.upstream;
 
 import android.content.Context;
-import org.telegram.messenger.exoplayer2.upstream.DataSource.Factory;
+import com.ferdi2005.secondgram.exoplayer2.upstream.DataSource.Factory;
 
 /**
  * A {@link Factory} that produces {@link DefaultDataSource} instances that delegate to

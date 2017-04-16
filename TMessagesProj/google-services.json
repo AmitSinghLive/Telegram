@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "353210291650",
-    "firebase_url": "https://secondgram-dc220.firebaseio.com",
-    "project_id": "secondgram-dc220",
-    "storage_bucket": "secondgram-dc220.appspot.com"
+    "project_number": "714578658699",
+    "firebase_url": "https://secondgram-bbc5e.firebaseio.com",
+    "project_id": "secondgram-bbc5e",
+    "storage_bucket": "secondgram-bbc5e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:353210291650:android:f6afd7b67eae3860",
+        "mobilesdk_app_id": "1:714578658699:android:4cb0ebb8a6018058",
         "android_client_info": {
-          "package_name": "org.telegram.messenger"
+          "package_name": "com.ferdi2005.secondgram"
         }
       },
       "oauth_client": [
         {
-          "client_id": "353210291650-0ov4m74q9jj9vruj1qan54n844vvnevi.apps.googleusercontent.com",
+          "client_id": "714578658699-qsfql1rtfi13rh24ulbbjp8jl0ddmcei.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDbniwc6jBJX7NuyD5jyPGMAUOQxX6qum8"
+          "current_key": "AIzaSyDf_PPFaTfsYdnWsWXnelP2Nu2XRs_3pFw"
         }
       ],
       "services": {

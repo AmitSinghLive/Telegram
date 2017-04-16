@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.dash;
+package com.ferdi2005.secondgram.exoplayer2.source.dash;
 
-import org.telegram.messenger.exoplayer2.extractor.ChunkIndex;
-import org.telegram.messenger.exoplayer2.source.dash.manifest.RangedUri;
+import com.ferdi2005.secondgram.exoplayer2.extractor.ChunkIndex;
+import com.ferdi2005.secondgram.exoplayer2.source.dash.manifest.RangedUri;
 
 /**
  * An implementation of {@link DashSegmentIndex} that wraps a {@link ChunkIndex} parsed from a

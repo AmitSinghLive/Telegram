@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.upstream.cache;
+package com.ferdi2005.secondgram.exoplayer2.upstream.cache;
 
-import org.telegram.messenger.exoplayer2.upstream.cache.Cache.CacheException;
+import com.ferdi2005.secondgram.exoplayer2.upstream.cache.Cache.CacheException;
 import java.util.Comparator;
 import java.util.TreeSet;
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.text.webvtt;
+package com.ferdi2005.secondgram.exoplayer2.text.webvtt;
 
 import android.graphics.Typeface;
 import android.text.Layout.Alignment;
@@ -30,8 +30,8 @@ import android.text.style.StyleSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.UnderlineSpan;
 import android.util.Log;
-import org.telegram.messenger.exoplayer2.text.Cue;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.text.Cue;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

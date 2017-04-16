@@ -1,10 +1,10 @@
-package org.telegram.messenger.support.widget;
+package com.ferdi2005.secondgram.support.widget;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.telegram.messenger.support.widget.RecyclerView.Adapter;
-import org.telegram.messenger.support.widget.RecyclerView.ViewHolder;
-import org.telegram.messenger.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
+import com.ferdi2005.secondgram.support.widget.RecyclerView.Adapter;
+import com.ferdi2005.secondgram.support.widget.RecyclerView.ViewHolder;
+import com.ferdi2005.secondgram.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
 import android.util.Log;
 import android.view.View;
 

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger.video;
+package com.ferdi2005.secondgram.video;
 
 import android.annotation.TargetApi;
 import android.media.MediaCodec;

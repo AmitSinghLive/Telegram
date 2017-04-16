@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.telegram.messenger.support.widget.helper;
+package com.ferdi2005.secondgram.support.widget.helper;
 
 import android.graphics.Canvas;
 import android.support.v4.view.ViewCompat;
-import org.telegram.messenger.support.widget.RecyclerView;
+import com.ferdi2005.secondgram.support.widget.RecyclerView;
 import android.view.View;
 
 

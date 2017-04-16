@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.telegram.messenger.browser;
+package com.ferdi2005.secondgram.browser;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -19,20 +19,20 @@ import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.ShareBroadcastReceiver;
-import org.telegram.messenger.support.customtabs.CustomTabsCallback;
-import org.telegram.messenger.support.customtabs.CustomTabsClient;
-import org.telegram.messenger.support.customtabs.CustomTabsIntent;
-import org.telegram.messenger.support.customtabs.CustomTabsServiceConnection;
-import org.telegram.messenger.support.customtabs.CustomTabsSession;
-import org.telegram.messenger.support.customtabsclient.shared.CustomTabsHelper;
-import org.telegram.messenger.support.customtabsclient.shared.ServiceConnection;
-import org.telegram.messenger.support.customtabsclient.shared.ServiceConnectionCallback;
+import com.ferdi2005.secondgram.ApplicationLoader;
+import com.ferdi2005.secondgram.FileLog;
+import com.ferdi2005.secondgram.LocaleController;
+import com.ferdi2005.secondgram.MediaController;
+import com.ferdi2005.secondgram.R;
+import com.ferdi2005.secondgram.ShareBroadcastReceiver;
+import com.ferdi2005.secondgram.support.customtabs.CustomTabsCallback;
+import com.ferdi2005.secondgram.support.customtabs.CustomTabsClient;
+import com.ferdi2005.secondgram.support.customtabs.CustomTabsIntent;
+import com.ferdi2005.secondgram.support.customtabs.CustomTabsServiceConnection;
+import com.ferdi2005.secondgram.support.customtabs.CustomTabsSession;
+import com.ferdi2005.secondgram.support.customtabsclient.shared.CustomTabsHelper;
+import com.ferdi2005.secondgram.support.customtabsclient.shared.ServiceConnection;
+import com.ferdi2005.secondgram.support.customtabsclient.shared.ServiceConnectionCallback;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.LaunchActivity;
 

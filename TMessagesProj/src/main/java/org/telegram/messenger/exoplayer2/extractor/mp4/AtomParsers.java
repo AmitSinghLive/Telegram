@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.extractor.mp4;
+package com.ferdi2005.secondgram.exoplayer2.extractor.mp4;
 
 import android.util.Log;
 import android.util.Pair;
-import org.telegram.messenger.exoplayer2.C;
-import org.telegram.messenger.exoplayer2.Format;
-import org.telegram.messenger.exoplayer2.ParserException;
-import org.telegram.messenger.exoplayer2.audio.Ac3Util;
-import org.telegram.messenger.exoplayer2.drm.DrmInitData;
-import org.telegram.messenger.exoplayer2.extractor.GaplessInfoHolder;
-import org.telegram.messenger.exoplayer2.metadata.Metadata;
-import org.telegram.messenger.exoplayer2.util.Assertions;
-import org.telegram.messenger.exoplayer2.util.CodecSpecificDataUtil;
-import org.telegram.messenger.exoplayer2.util.MimeTypes;
-import org.telegram.messenger.exoplayer2.util.ParsableByteArray;
-import org.telegram.messenger.exoplayer2.util.Util;
-import org.telegram.messenger.exoplayer2.video.AvcConfig;
-import org.telegram.messenger.exoplayer2.video.HevcConfig;
+import com.ferdi2005.secondgram.exoplayer2.C;
+import com.ferdi2005.secondgram.exoplayer2.Format;
+import com.ferdi2005.secondgram.exoplayer2.ParserException;
+import com.ferdi2005.secondgram.exoplayer2.audio.Ac3Util;
+import com.ferdi2005.secondgram.exoplayer2.drm.DrmInitData;
+import com.ferdi2005.secondgram.exoplayer2.extractor.GaplessInfoHolder;
+import com.ferdi2005.secondgram.exoplayer2.metadata.Metadata;
+import com.ferdi2005.secondgram.exoplayer2.util.Assertions;
+import com.ferdi2005.secondgram.exoplayer2.util.CodecSpecificDataUtil;
+import com.ferdi2005.secondgram.exoplayer2.util.MimeTypes;
+import com.ferdi2005.secondgram.exoplayer2.util.ParsableByteArray;
+import com.ferdi2005.secondgram.exoplayer2.util.Util;
+import com.ferdi2005.secondgram.exoplayer2.video.AvcConfig;
+import com.ferdi2005.secondgram.exoplayer2.video.HevcConfig;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

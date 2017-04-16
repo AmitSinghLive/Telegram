@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.trackselection;
+package com.ferdi2005.secondgram.exoplayer2.trackselection;
 
 import android.util.Pair;
-import org.telegram.messenger.exoplayer2.ExoPlaybackException;
-import org.telegram.messenger.exoplayer2.RendererCapabilities;
-import org.telegram.messenger.exoplayer2.source.TrackGroupArray;
+import com.ferdi2005.secondgram.exoplayer2.ExoPlaybackException;
+import com.ferdi2005.secondgram.exoplayer2.RendererCapabilities;
+import com.ferdi2005.secondgram.exoplayer2.source.TrackGroupArray;
 
 /** Selects tracks to be consumed by available renderers. */
 public abstract class TrackSelector {

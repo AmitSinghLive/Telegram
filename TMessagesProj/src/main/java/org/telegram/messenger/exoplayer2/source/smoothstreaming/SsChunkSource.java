@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.telegram.messenger.exoplayer2.source.smoothstreaming;
+package com.ferdi2005.secondgram.exoplayer2.source.smoothstreaming;
 
-import org.telegram.messenger.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import org.telegram.messenger.exoplayer2.source.chunk.ChunkSource;
-import org.telegram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import org.telegram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.telegram.messenger.exoplayer2.upstream.LoaderErrorThrower;
+import com.ferdi2005.secondgram.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import com.ferdi2005.secondgram.exoplayer2.source.chunk.ChunkSource;
+import com.ferdi2005.secondgram.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import com.ferdi2005.secondgram.exoplayer2.trackselection.TrackSelection;
+import com.ferdi2005.secondgram.exoplayer2.upstream.LoaderErrorThrower;
 
 /**
  * A {@link ChunkSource} for SmoothStreaming.

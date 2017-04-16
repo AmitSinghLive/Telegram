@@ -69,7 +69,6 @@ android {
             debuggable true
             jniDebuggable true
             signingConfig signingConfigs.debug
-            applicationIdSuffix ".beta"
         }
 
         release {
@@ -88,7 +87,7 @@ android {
         }
     }
 
-    defaultConfig.versionCode = 957
+    defaultConfig.versionCode = 1
 
     sourceSets.debug {
         manifest.srcFile 'config/debug/AndroidManifest.xml'
@@ -160,7 +159,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 25
-        versionName "3.18.0"
+        versionName "0.0.1"
 
         externalNativeBuild {
             ndkBuild {
